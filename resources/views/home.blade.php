@@ -207,7 +207,6 @@
 	              <div class="text">
                   <span style="font-size:30px"><i class="fas fa-briefcase"></i></span>
 	                <strong class="number" data-number="10300">0</strong>
-	                <span>Nombre de professeurs</span>
 	              </div>
 	            </div>
             </div>
