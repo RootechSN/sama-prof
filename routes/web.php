@@ -26,7 +26,9 @@ Route::get('/school', function () {
 Route::get('/teacher', function () {
     return view('teacher');
 });
-
+Route::get('/teacher-single', function () {
+    return view('teacher-single');
+});
 Route::get('/event', function () {
     return view('event');
 });

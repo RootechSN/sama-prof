@@ -289,7 +289,7 @@
             </a>
             <div class="text p-4 d-block">
             	<div class="meta mb-3">
-                <div><a href="#">12 août 2019</a></div>
+                <div><a href="#"><span class="icon-calendar"></span> 12 août 2019</a></div>
                 <div><a href="#">Admin</a></div>
               </div>
               <h3 class="heading mt-3"><a href="#">Comment se démarquer au début de votre carrière UX</a></h3>
@@ -321,7 +321,7 @@
             </a>
             <div class="text p-4 d-block">
             	<div class="meta mb-3">
-                <div><a href="#">12 août 2019</a></div>
+                <div><a href="#"><span class="icon-calendar"></span> 12 août 2019</a></div>
                 <div><a href="#">Admin</a></div>
               </div>
               <h3 class="heading mt-3"><a href="#">Comment se démarquer au début de votre carrière UX</a></h3>
@@ -353,7 +353,7 @@
             </a>
             <div class="text p-4 d-block">
             	<div class="meta mb-3">
-                <div><a href="#">12 août 2019</a></div>
+                <div><a href="#"><span class="icon-calendar"></span> 12 août 2019</a></div>
                 <div><a href="#">Admin</a></div>
               </div>
               <h3 class="heading mt-3"><a href="#">Comment se démarquer au début de votre carrière UX</a></h3>
@@ -464,123 +464,64 @@
     </div>
   </section>
 	
-  <section class="section-team-body">
-  	<div class="container">
-  		<div class="row flex-center sm-no-flex">
-  
-  			<div class="pull-right sm-no-float col-md-8">
-  				<ul class="team-members">
-  					<!-- single member row starts -->
-  					<li class="clearfix">
-  						<div class="member-details">
-  							<div>
-  								<img src="http://gocheckers.com/images/roster/andrew_poturalski_headshot_1718.png" alt="UI Designer">
-  								<div class="member-info">
-  									<h3>John Doe</h3>
-  									<p>UI Designer</p>
-  								</div>
-  							</div>
-  						</div>
-  						
-  						<div class="member-details">
-  							<div>
-  								<img src="http://gocheckers.com/images/roster/josh_wesley_headshot_1718.png" alt="UI Designer">
-  								<div class="member-info">
-  									<h3>John Doe</h3>
-  									<p>UI Designer</p>
-  								</div>
-  							</div>
-  						</div>
-  						
-  						<div class="member-details">
-  							<div>
-  								<img src="https://axis.org/wp-content/uploads/2014/10/chris-headshot.png" alt="UI Designer">
-  								<div class="member-info">
-  									<h3>John Doe</h3>
-  									<p>UI Designer</p>
-  								</div>
-  							</div>
-  						</div>
-  					</li><!-- /single member row ends -->
-  					
-  					<!-- single member row starts -->
-  					<li class="clearfix">
-  						<div class="member-details">
-  							<div>
-  								<img src="https://axis.org/wp-content/uploads/2015/05/evan-headshot.png" alt="UI Designer">
-  								<div class="member-info">
-  									<h3>John Doe</h3>
-  									<p>UI Designer</p>
-  								</div>
-  							</div>
-  						</div>
-  						
-  						<div class="member-details">
-  							<div>
-  								<img src="http://gocheckers.com/images/roster/andrew_poturalski_headshot_1718.png" alt="UI Designer">
-  								<div class="member-info">
-  									<h3>John Doe</h3>
-  									<p>UI Designer</p>
-  								</div>
-  							</div>
-  						</div>
-  						
-  						<div class="member-details">
-  							<div>
-  								<img src="https://axis.org/wp-content/uploads/2015/12/2015-Dougie-Headshot.png" alt="UI Designer">
-  								<div class="member-info">
-  									<h3>John Doe</h3>
-  									<p>UI Designer</p>
-  								</div>
-  							</div>
-  						</div>
-  					</li><!-- /single member row ends -->
-  
-  					<!-- single member row starts -->
-  					<li class="clearfix">
-  						<div class="member-details">
-  							<div>
-  								<img src="https://axis.org/wp-content/uploads/2014/10/chris-headshot.png" alt="UI Designer">
-  								<div class="member-info">
-  									<h3>John Doe</h3>
-  									<p>UI Designer</p>
-  								</div>
-  							</div>
-  						</div>
-  						
-  						<div class="member-details">
-  							<div>
-  								<img src="https://axis.org/wp-content/uploads/2014/12/jeremiah-e1418073411753.png" alt="UI Designer">
-  								<div class="member-info">
-  									<h3>John Doe</h3>
-  									<p>UI Designer</p>
-  								</div>
-  							</div>
-  						</div>
-  						
-  						<div class="member-details">
-  							<div>
-  								<img src="images/team1.jpg" alt="UI Designer">
-  								<div class="member-info">
-  									<h3>John Doe</h3>
-  									<p>UI Designer</p>
-  								</div>
-  							</div>
-  						</div>
-  					</li><!-- /single member row ends -->
-  
-  				</ul><!-- /end team-photos -->
-  			</div><!-- /end col-md-8 -->
-  			
-  			<div class="pull-left col-md-4 sm-text-center">
-  				<div class="team-overview">
-  					<h2>Qui sommes nous?</h2>
-  					<a href="#">Rencontrez toute l'équipe</a>
-  					<p><div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci quae nesciunt officia! Autem, nam eum voluptatem, esse voluptatibus deleniti tempora laboriosam sequi pariatur, explicabo itaque. Fuga, deserunt? Repudiandae, neque qui.</div></p>
-  				</div>
-  			</div><!-- /end col-md-4 -->
-  		</div><!-- /end row -->
-  	</div><!-- /end container -->
+  <section class="ftco-section bg-light">
+    <div class="container">
+    	<div class="row justify-content-center mb-5 pb-3">
+        <div class="col-md-7 heading-section ftco-animate text-center">
+          <h2 class="mb-4">Notre equipe</h2>
+        </div>
+      </div>
+      <div class="row">
+      	<div class="col-lg-4 mb-sm-4 ftco-animate">
+      		<div class="staff">
+      			<div class="d-flex mb-4">
+      				<div class="img" style="background-image: url(images/team.jpg);"></div>
+      				<div class="info ml-4">
+      					<h3><a href="#">Omar SOW</a></h3>
+      					<span class="position">Developpeur web/mobile</span>
+      					<p class="ftco-social d-flex">
+		              <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-twitter"></span></a>
+		              <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-facebook"></span></a>
+		              <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-instagram"></span></a>
+		            </p>
+      				</div>
+      			</div>
+      		</div>
+      	</div>
+      	<div class="col-lg-4 mb-sm-4 ftco-animate">
+      		<div class="staff">
+      			<div class="d-flex mb-4">
+      				<div class="img" style="background-image: url(images/team2.jpg);"></div>
+      				<div class="info ml-4">
+      					<h3><a href="teacher-single.html">Mouhamad BA</a></h3>
+      					<span class="position">Developpeur web/mobile</span>
+      					<p class="ftco-social d-flex">
+		              <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-twitter"></span></a>
+		              <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-facebook"></span></a>
+		              <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-instagram"></span></a>
+		            </p>
+      				</div>
+      			</div>
+      		</div>
+      	</div>
+      	<div class="col-lg-4 mb-sm-4 ftco-animate">
+      		<div class="staff">
+      			<div class="d-flex mb-4">
+      				<div class="img" style="background-image: url(images/team-thiam.jpg);"></div>
+      				<div class="info ml-4">
+      					<h3><a href="teacher-single.html">Moussa THIAM</a></h3>
+      					<span class="position">Developpeur web/mobile</span>
+      					<p class="ftco-social d-flex">
+		              <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-twitter"></span></a>
+		              <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-facebook"></span></a>
+		              <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-instagram"></span></a>
+		            </p>
+      				</div>
+      			</div>
+      		</div>
+      	</div>
+      </div>
+    </div>
   </section>
 
 	<section class="ftco-section-parallax">
