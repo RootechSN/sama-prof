@@ -12,9 +12,355 @@
         </div>
       </div>
     </div> 
-    <section class="ftco-section">
-    	<div class="container">
-    		<div class="row">
+    
+<!-- ##### Popular Courses Start ##### -->
+<section class="popular-courses-area section-padding-100-0" style="background-image: url(img/core-img/texture.png);">
+        <div class="container">
+            <div class="row">
+                <!-- Single Popular Course -->
+                <div class="col-12 col-6 col-lg-4">
+		
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="500ms">
+                        <img src="images/bakeli_bg1.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                        <h3>Bakeli</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, voluptatum! Dolor quo, perspiciatis
+					</p>
+					<div class="card-desc">
+                            <a href="#"  class="btn-card">en savoir plus</a>   
+					</div>
+						</div>
+                        <!-- Seat Rating Fee -->
+                        <div class="seat-rating-fee d-flex justify-content-between">
+								
+							
+							
+					       		<div class="seat-rating h-100 d-flex align-items-center">
+                              			<div class="rating">
+											<a href="https://bootsnipp.com/snippets/N6yNO" class="tip" data-toggle="tooltip" title="" data-original-title="Viewed">35.4K <i class="fa fa-eye"aria-hidden="true"></i></a>
+										</div>
+										<div class="rating">
+											<a href="https://bootsnipp.com/snippets/N6yNO" class="tip" data-toggle="tooltip" title="" data-original-title="Viewed">35.4K <i class="fa fa-star" aria-hidden="true"></i></a>
+										</div>
+										<div class="rating">
+											<a href="https://bootsnipp.com/snippets/N6yNO" class="tip" data-toggle="tooltip" title="" data-original-title="Favorited">43 <i class="icon-thumbs-up"></i></a>
+									<!-- <a href="https://bootsnipp.com/tags/4.1.1"><span class="label label-info tip" data-toggle="tooltip" title="Bootstrap version">4.1.1</span></a>-->
+										</div>
+										<button  class="btn btn-primary" type="submit">  postuler  </button>
+								</div>
+				
+
+
+
+                        </div>
+                    </div>
+                </div>	
+
+
+
+				
+                <!-- Single Popular Course -->
+                <div class="col-12 col-6 col-lg-4">
+		
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="500ms">
+                        <img src="images/maxresdefault.jpg"  alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                        <h3>Esp</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, voluptatum! Dolor quo, perspiciatis
+					</p>
+					<div class="card-desc">
+                            <a href="#" class="btn-card">en savoir plus</a>   
+					</div>
+						</div>
+                        <!-- Seat Rating Fee -->
+                        <div class="seat-rating-fee d-flex justify-content-between">
+						<div class="seat-rating h-100 d-flex align-items-center">
+                              			<div class="rating">
+											<a href="https://bootsnipp.com/snippets/N6yNO" class="tip" data-toggle="tooltip" title="" data-original-title="Viewed">35.4K <i class="fa fa-eye"aria-hidden="true"></i></a>
+										</div>
+										<div class="rating">
+											<a href="https://bootsnipp.com/snippets/N6yNO" class="tip" data-toggle="tooltip" title="" data-original-title="Viewed">35.4K <i class="fa fa-star" aria-hidden="true"></i></a>
+										</div>
+										<div class="rating">
+											<a href="https://bootsnipp.com/snippets/N6yNO" class="tip" data-toggle="tooltip" title="" data-original-title="Favorited">43 <i class="icon-thumbs-up"></i></a>
+									<!-- <a href="https://bootsnipp.com/tags/4.1.1"><span class="label label-info tip" data-toggle="tooltip" title="Bootstrap version">4.1.1</span></a>-->
+										</div>
+										<button  class="btn btn-primary" type="submit">  postuler  </button>
+								</div>
+				
+                            
+                        </div>
+                    </div>
+                </div>	
+
+
+
+			
+                <!-- Single Popular Course -->
+                <div class="col-12 col-6 col-lg-4">
+		
+                    <div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="500ms">
+                        <img src="images/ESTM.jpg" alt="">
+                        <!-- Course Content -->
+                        <div class="course-content">
+                        <h3>ISI</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, voluptatum! Dolor quo, perspiciatis
+					</p>
+					<div class="card-desc">
+                            <a href="#" class="btn-card">en savoir plus</a>   
+					</div>
+						</div>
+                        <!-- Seat Rating Fee -->
+                        <div class="seat-rating-fee d-flex justify-content-between">
+						<div class="seat-rating h-100 d-flex align-items-center">
+                              			<div class="rating">
+											<a href="https://bootsnipp.com/snippets/N6yNO" class="tip" data-toggle="tooltip" title="" data-original-title="Viewed">35.4K <i class="fa fa-eye"aria-hidden="true"></i></a>
+										</div>
+										<div class="rating">
+											<a href="https://bootsnipp.com/snippets/N6yNO" class="tip" data-toggle="tooltip" title="" data-original-title="Viewed">35.4K <i class="fa fa-star" aria-hidden="true"></i></a>
+										</div>
+										<div class="rating">
+											<a href="https://bootsnipp.com/snippets/N6yNO" class="tip" data-toggle="tooltip" title="" data-original-title="Favorited">43 <i class="icon-thumbs-up"></i></a>
+									<!-- <a href="https://bootsnipp.com/tags/4.1.1"><span class="label label-info tip" data-toggle="tooltip" title="Bootstrap version">4.1.1</span></a>-->
+										</div>
+										<button  class="btn btn-primary" type="submit">  postuler  </button>
+								</div>
+				
+                            
+                        </div>
+                    </div>
+                </div>	
+
+</section>
+
+<section class="popular-courses-area section-padding-100-0" style="background-image: url(img/core-img/texture.png);">
+        <div class="container">
+            <div class="row">
+				  <!-- Single Popular Course -->
+				  <div class="col-12 col-6 col-lg-4">
+		
+		<div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="500ms">
+			<img src="images/images (1).jpeg" alt="">
+			<!-- Course Content -->
+			<div class="course-content">
+			<h3>ENSUP</h3>
+			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, voluptatum! Dolor quo, perspiciatis
+		</p>
+		<div class="card-desc">
+				<a href="#" class="btn-card">en savoir plus</a>   
+		</div>
+			</div>
+			<!-- Seat Rating Fee -->
+			<div class="seat-rating-fee d-flex justify-content-between">
+			<div class="seat-rating h-100 d-flex align-items-center">
+                              			<div class="rating">
+											<a href="https://bootsnipp.com/snippets/N6yNO" class="tip" data-toggle="tooltip" title="" data-original-title="Viewed">35.4K <i class="fa fa-eye"aria-hidden="true"></i></a>
+										</div>
+										<div class="rating">
+											<a href="https://bootsnipp.com/snippets/N6yNO" class="tip" data-toggle="tooltip" title="" data-original-title="Viewed">35.4K <i class="fa fa-star" aria-hidden="true"></i></a>
+										</div>
+										<div class="rating">
+											<a href="https://bootsnipp.com/snippets/N6yNO" class="tip" data-toggle="tooltip" title="" data-original-title="Favorited">43 <i class="icon-thumbs-up"></i></a>
+									<!-- <a href="https://bootsnipp.com/tags/4.1.1"><span class="label label-info tip" data-toggle="tooltip" title="Bootstrap version">4.1.1</span></a>-->
+										</div>
+										<button  class="btn btn-primary" type="submit">  postuler  </button>
+								</div>
+				
+			</div>
+		</div>
+	</div>	
+
+	  <!-- Single Popular Course -->
+	  <div class="col-12 col-6 col-lg-4">
+		
+		<div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="500ms">
+			<img src="images/ISM-DAKAR.jpg" alt="">
+			<!-- Course Content -->
+			<div class="course-content">
+			<h3>ISEG</h3>
+			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, voluptatum! Dolor quo, perspiciatis
+		</p>
+		<div class="card-desc">
+				<a href="#" class="btn-card">en savoir plus</a>   
+		</div>
+			</div>
+			<!-- Seat Rating Fee -->
+			<div class="seat-rating-fee d-flex justify-content-between">
+			<div class="seat-rating h-100 d-flex align-items-center">
+                              			<div class="rating">
+											<a href="https://bootsnipp.com/snippets/N6yNO" class="tip" data-toggle="tooltip" title="" data-original-title="Viewed">35.4K <i class="fa fa-eye"aria-hidden="true"></i></a>
+										</div>
+										<div class="rating">
+											<a href="https://bootsnipp.com/snippets/N6yNO" class="tip" data-toggle="tooltip" title="" data-original-title="Viewed">35.4K <i class="fa fa-star" aria-hidden="true"></i></a>
+										</div>
+										<div class="rating">
+											<a href="https://bootsnipp.com/snippets/N6yNO" class="tip" data-toggle="tooltip" title="" data-original-title="Favorited">43 <i class="icon-thumbs-up"></i></a>
+									<!-- <a href="https://bootsnipp.com/tags/4.1.1"><span class="label label-info tip" data-toggle="tooltip" title="Bootstrap version">4.1.1</span></a>-->
+										</div>
+										<button  class="btn btn-primary" type="submit">   postuler  </button>
+								</div>
+				
+				
+			</div>
+		</div>
+	</div>	
+
+
+	  <!-- Single Popular Course -->
+	  <div class="col-12 col-6 col-lg-4">
+		
+		<div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="500ms">
+			<img src="images/unnamed.jpg" alt="">
+			<!-- Course Content -->
+			<div class="course-content">
+			<h3>ESMT</h3>
+			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, voluptatum! Dolor quo, perspiciatis
+		</p>
+		<div class="card-desc">
+				<a href="#" class="btn-card">en savoir plus</a>   
+		</div>
+			</div>
+			<!-- Seat Rating Fee -->
+			<div class="seat-rating-fee d-flex justify-content-between">
+			<div class="seat-rating h-100 d-flex align-items-center">
+                              			<div class="rating">
+											<a href="https://bootsnipp.com/snippets/N6yNO" class="tip" data-toggle="tooltip" title="" data-original-title="Viewed">35.4K <i class="fa fa-eye"aria-hidden="true"></i></a>
+										</div>
+										<div class="rating">
+											<a href="https://bootsnipp.com/snippets/N6yNO" class="tip" data-toggle="tooltip" title="" data-original-title="Viewed">35.4K <i class="fa fa-star" aria-hidden="true"></i></a>
+										</div>
+										<div class="rating">
+											<a href="https://bootsnipp.com/snippets/N6yNO" class="tip" data-toggle="tooltip" title="" data-original-title="Favorited">43 <i class="icon-thumbs-up"></i></a>
+									<!-- <a href="https://bootsnipp.com/tags/4.1.1"><span class="label label-info tip" data-toggle="tooltip" title="Bootstrap version">4.1.1</span></a>-->
+										</div>
+										<button  class="btn btn-primary" type="submit">   postuler  </button>
+								</div>
+				
+				
+			</div>
+		</div>
+	</div>	
+</section>
+
+
+
+<section class="popular-courses-area section-padding-100-0" style="background-image: url(img/core-img/texture.png);">
+        <div class="container">
+            <div class="row">
+				  <!-- Single Popular Course -->
+				  <div class="col-12 col-6 col-lg-4">
+		
+		<div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="500ms">
+			<img src="images/afi.jpg" alt="">
+			<!-- Course Content -->
+			<div class="course-content">
+			<h3>AFI</h3>
+			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, voluptatum! Dolor quo, perspiciatis
+		</p>
+		<div class="card-desc">
+				<a href="#" class="btn-card">en savoir plus</a>   
+		</div>
+			</div>
+			<!-- Seat Rating Fee -->
+			<div class="seat-rating-fee d-flex justify-content-between">
+			<div class="seat-rating h-100 d-flex align-items-center">
+                              			<div class="rating">
+											<a href="https://bootsnipp.com/snippets/N6yNO" class="tip" data-toggle="tooltip" title="" data-original-title="Viewed">35.4K <i class="fa fa-eye"aria-hidden="true"></i></a>
+										</div>
+										<div class="rating">
+											<a href="https://bootsnipp.com/snippets/N6yNO" class="tip" data-toggle="tooltip" title="" data-original-title="Viewed">35.4K <i class="fa fa-star" aria-hidden="true"></i></a>
+										</div>
+										<div class="rating">
+											<a href="https://bootsnipp.com/snippets/N6yNO" class="tip" data-toggle="tooltip" title="" data-original-title="Favorited">43 <i class="icon-thumbs-up"></i></a>
+									<!-- <a href="https://bootsnipp.com/tags/4.1.1"><span class="label label-info tip" data-toggle="tooltip" title="Bootstrap version">4.1.1</span></a>-->
+										</div>
+										<button  class="btn btn-primary" type="submit">   postuler  </button>
+								</div>
+				
+				
+			</div>
+		</div>
+	</div>	
+
+	  <!-- Single Popular Course -->
+	  <div class="col-12 col-6 col-lg-4">
+		
+		<div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="500ms">
+			<img src="images/Sonatel-Academy.jpg" alt="">
+			<!-- Course Content -->
+			<div class="course-content">
+			<h3>Sonatel Academy</h3>
+			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, voluptatum! Dolor quo, perspiciatis
+		</p>
+		<div class="card-desc">
+				<a href="#" class="btn-card">en savoir plus</a>   
+		</div>
+			</div>
+			<!-- Seat Rating Fee -->
+			<div class="seat-rating-fee d-flex justify-content-between">
+			<div class="seat-rating h-100 d-flex align-items-center">
+                              			<div class="rating">
+											<a href="https://bootsnipp.com/snippets/N6yNO" class="tip" data-toggle="tooltip" title="" data-original-title="Viewed">35.4K <i class="fa fa-eye"aria-hidden="true"></i></a>
+										</div>
+										<div class="rating">
+											<a href="https://bootsnipp.com/snippets/N6yNO" class="tip" data-toggle="tooltip" title="" data-original-title="Viewed">35.4K <i class="fa fa-star" aria-hidden="true"></i></a>
+										</div>
+										<div class="rating">
+											<a href="https://bootsnipp.com/snippets/N6yNO" class="tip" data-toggle="tooltip" title="" data-original-title="Favorited">43 <i class="icon-thumbs-up"></i></a>
+									<!-- <a href="https://bootsnipp.com/tags/4.1.1"><span class="label label-info tip" data-toggle="tooltip" title="Bootstrap version">4.1.1</span></a>-->
+										</div>
+										<button  class="btn btn-primary" type="submit">   postuler  </button>
+								</div>
+				
+			</div>
+		</div>
+	</div>	
+
+
+	  <!-- Single Popular Course -->
+	  <div class="col-12 col-6 col-lg-4">
+		
+		<div class="single-popular-course mb-100 wow fadeInUp" data-wow-delay="500ms">
+			<img src="images/bak.png" alt="">
+			<!-- Course Content -->
+			<div class="course-content">
+			<h3>IPG</h3>
+			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, voluptatum! Dolor quo, perspiciatis
+		</p>
+		<div class="card-desc">
+				<a href="#" class="btn-card">en savoir plus</a>   
+		</div>
+			</div>
+			<!-- Seat Rating Fee -->
+			<div class="seat-rating-fee d-flex justify-content-between">
+			<div class="seat-rating h-100 d-flex align-items-center">
+                              			<div class="rating">
+											<a href="https://bootsnipp.com/snippets/N6yNO" class="tip" data-toggle="tooltip" title="" data-original-title="Viewed">35.4K <i class="fa fa-eye"aria-hidden="true"></i></a>
+										</div>
+										<div class="rating">
+											<a href="https://bootsnipp.com/snippets/N6yNO" class="tip" data-toggle="tooltip" title="" data-original-title="Viewed">35.4K <i class="fa fa-star" aria-hidden="true"></i></a>
+										</div>
+										<div class="rating">
+											<a href="https://bootsnipp.com/snippets/N6yNO" class="tip" data-toggle="tooltip" title="" data-original-title="Favorited">43 <i class="icon-thumbs-up"></i></a>
+									<!-- <a href="https://bootsnipp.com/tags/4.1.1"><span class="label label-info tip" data-toggle="tooltip" title="Bootstrap version">4.1.1</span></a>-->
+										</div>
+										<button  class="btn btn-primary" type="submit">  postuler  </button>
+								</div>
+				
+			</div>
+		</div>
+	</div>	
+</section>
+
+
+
+
+
+
+
+    		<!--div class="row">
     			<div class="col-md-4 d-flex ftco-animate">
     				<div class="course align-self-stretch">
     					<a href="#" class="img" style="background-image: url(images/course-1.jpg)"></a>
@@ -81,7 +427,7 @@
     					</div>
     				</div>
     			</div>
-    		</div>
+    		</div-->
     		<div class="row mt-5">
           <div class="col text-center">
             <div class="block-27">
