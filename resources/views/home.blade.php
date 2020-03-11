@@ -206,7 +206,8 @@
 	            <div class="block-18 text-center">
 	              <div class="text">
                   <span style="font-size:30px"><i class="fas fa-briefcase"></i></span>
-	                <strong class="number" data-number="10300">0</strong>
+	                <strong class="number text-primary" data-number="10300">0</strong>
+	                <span>Nombre de professeurs</span>
 	              </div>
 	            </div>
             </div>
@@ -214,7 +215,7 @@
 	            <div class="block-18 text-center">
 	              <div class="text">
                   <span style="font-size:30px"><i class="fas fa-graduation-cap"></i></span>
-	                <strong class="number" data-number="7896">0</strong>
+	                <strong class="number text-primary" data-number="7896">0</strong>
 	                <span>Nombre d'ecoles</span>
 	              </div>
 	            </div>
@@ -223,7 +224,7 @@
 	            <div class="block-18 text-center">
 	              <div class="text">
                   <span style="font-size:30px"><i class="fas fa-grin-hearts"></i></span>
-	                <strong class="number" data-number="400">0</strong>
+	                <strong class="number text-primary" data-number="400">0</strong>
 	                <span>Professeurs satisfaits</span>
 	              </div>
 	            </div>
@@ -232,7 +233,7 @@
 	            <div class="block-18 text-center text-primary">
 	              <div class="text">
                   <span style="font-size:30px"><i class="fas fa-grin-hearts"></i></span>
-	                <strong class="number" data-number="200">0</strong>
+	                <strong class="number text-primary" data-number="200">0</strong>
 	                <span>Ecoles satisfaits</span>
 	              </div>
 	            </div>
@@ -247,7 +248,7 @@
     <div class="container">
     	<div class="row justify-content-center mb-5 pb-3">
         <div class="col-md-7 heading-section ftco-animate text-center">
-          <h2 class="mb-4">Ce que nos professeurs disent</h2>
+          <h2 class="mb-4">Ce qu'ils disent de SamaProf!</h2>
         </div>
       </div>
       <div class="row">
@@ -255,57 +256,57 @@
           <div class="carousel-testimony owl-carousel">
             <div class="item">
               <div class="testimony-wrap text-center">
-                <div class="user-img mb-5" style="background-image: url(images/person_1.jpg)">
+                <div class="user-img mb-5" style="background-image: url(images/temoin1.jpg)">
                   <span class="quote d-flex align-items-center justify-content-center">
                     <i class="icon-quote-left"></i>
                   </span>
                 </div>
                 <div class="text">
-                  <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                  <p class="name">Dennis Green</p>
-                  <span class="position">CSE Student</span>
+                  <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nostrum blanditiis ad fugiat expedita voluptas.</p>
+                  <p class="name">Bakeli</p>
+                  <span class="position">Numerique</span>
                 </div>
               </div>
             </div>
             <div class="item">
               <div class="testimony-wrap text-center">
-                <div class="user-img mb-5" style="background-image: url(images/person_2.jpg)">
+                <div class="user-img mb-5" style="background-image: url(images/temoin2.jpg)">
                   <span class="quote d-flex align-items-center justify-content-center">
                     <i class="icon-quote-left"></i>
                   </span>
                 </div>
                 <div class="text">
-                  <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                  <p class="name">Dennis Green</p>
-                  <span class="position">Math Student</span>
+                  <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, nulla? Odio recusandae corporis dolorem ipsam!</p>
+                  <p class="name">Monsieur x</p>
+                  <span class="position">Professeur</span>
                 </div>
               </div>
             </div>
             <div class="item">
               <div class="testimony-wrap text-center">
-                <div class="user-img mb-5" style="background-image: url(images/person_3.jpg)">
+                <div class="user-img mb-5" style="background-image: url(images/temoin3.jpg)">
                   <span class="quote d-flex align-items-center justify-content-center">
                     <i class="icon-quote-left"></i>
                   </span>
                 </div>
                 <div class="text">
-                  <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                  <p class="name">Dennis Green</p>
-                  <span class="position">Science Students</span>
+                  <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, ullam necessitatibus vero nesciunt ad amet.</p>
+                  <p class="name">Madame x</p>
+                  <span class="position">Professeur</span>
                 </div>
               </div>
             </div>
             <div class="item">
               <div class="testimony-wrap text-center">
-                <div class="user-img mb-5" style="background-image: url(images/person_3.jpg)">
+                <div class="user-img mb-5" style="background-image: url(images/temoin4.jpg)">
                   <span class="quote d-flex align-items-center justify-content-center">
                     <i class="icon-quote-left"></i>
                   </span>
                 </div>
                 <div class="text">
-                  <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                  <p class="name">Dennis Green</p>
-                  <span class="position">English Student</span>
+                  <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ipsam minus laborum blanditiis totam vel.</p>
+                  <p class="name">Ecole</p>
+                  <span class="position">Business</span>
                 </div>
               </div>
             </div>
@@ -315,74 +316,125 @@
     </div>
   </section>
 
-  <section class="ftco-section bg-light">
-    <div class="container">
-    	<div class="row justify-content-center mb-5 pb-3">
-        <div class="col-md-7 heading-section ftco-animate text-center">
-          <h2 class="mb-4">Our Experience Advisor</h2>
-        </div>
-      </div>
-      <div class="row">
-      	<div class="col-lg-4 mb-sm-4 ftco-animate">
-      		<div class="staff">
-      			<div class="d-flex mb-4">
-      				<div class="img" style="background-image: url(images/person_1.jpg);"></div>
-      				<div class="info ml-4">
-      					<h3><a href="teacher-single.html">Ivan Jacobson</a></h3>
-      					<span class="position">CSE Teacher</span>
-      					<p class="ftco-social d-flex">
-	                <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-twitter"></span></a>
-	                <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-facebook"></span></a>
-	                <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-instagram"></span></a>
-	              </p>
-      				</div>
-      			</div>
-      			<div class="text">
-      				<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name</p>
-      			</div>
-      		</div>
-      	</div>
-      	<div class="col-lg-4 mb-sm-4 ftco-animate">
-      		<div class="staff">
-      			<div class="d-flex mb-4">
-      				<div class="img" style="background-image: url(images/person_2.jpg);"></div>
-      				<div class="info ml-4">
-      					<h3><a href="teacher-single.html">Ivan Jacobson</a></h3>
-      					<span class="position">CSE Teacher</span>
-      					<p class="ftco-social d-flex">
-	                <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-twitter"></span></a>
-	                <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-facebook"></span></a>
-	                <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-instagram"></span></a>
-	              </p>
-      				</div>
-      			</div>
-      			<div class="text">
-      				<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name</p>
-      			</div>
-      		</div>
-      	</div>
-      	<div class="col-lg-4 mb-sm-4 ftco-animate">
-      		<div class="staff">
-      			<div class="d-flex mb-4">
-      				<div class="img" style="background-image: url(images/person_3.jpg);"></div>
-      				<div class="info ml-4">
-      					<h3><a href="teacher-single.html">Ivan Jacobson</a></h3>
-      					<span class="position">CSE Teacher</span>
-      					<p class="ftco-social d-flex">
-	                <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-twitter"></span></a>
-	                <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-facebook"></span></a>
-	                <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-instagram"></span></a>
-	              </p>
-      				</div>
-      			</div>
-      			<div class="text">
-      				<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name</p>
-      			</div>
-      		</div>
-      	</div>
-      </div>
-    </div>
-  </section>
+<section class="section-team-body">
+	<div class="container">
+		<div class="row flex-center sm-no-flex">
+
+			<div class="pull-right sm-no-float col-md-8">
+				<ul class="team-members">
+					<!-- single member row starts -->
+					<li class="clearfix">
+						<div class="member-details">
+							<div>
+								<img src="http://gocheckers.com/images/roster/andrew_poturalski_headshot_1718.png" alt="UI Designer">
+								<div class="member-info">
+									<h3>John Doe</h3>
+									<p>UI Designer</p>
+								</div>
+							</div>
+						</div>
+						
+						<div class="member-details">
+							<div>
+								<img src="http://gocheckers.com/images/roster/josh_wesley_headshot_1718.png" alt="UI Designer">
+								<div class="member-info">
+									<h3>John Doe</h3>
+									<p>UI Designer</p>
+								</div>
+							</div>
+						</div>
+						
+						<div class="member-details">
+							<div>
+								<img src="https://axis.org/wp-content/uploads/2014/10/chris-headshot.png" alt="UI Designer">
+								<div class="member-info">
+									<h3>John Doe</h3>
+									<p>UI Designer</p>
+								</div>
+							</div>
+						</div>
+					</li><!-- /single member row ends -->
+					
+					<!-- single member row starts -->
+					<li class="clearfix">
+						<div class="member-details">
+							<div>
+								<img src="https://axis.org/wp-content/uploads/2015/05/evan-headshot.png" alt="UI Designer">
+								<div class="member-info">
+									<h3>John Doe</h3>
+									<p>UI Designer</p>
+								</div>
+							</div>
+						</div>
+						
+						<div class="member-details">
+							<div>
+								<img src="http://gocheckers.com/images/roster/andrew_poturalski_headshot_1718.png" alt="UI Designer">
+								<div class="member-info">
+									<h3>John Doe</h3>
+									<p>UI Designer</p>
+								</div>
+							</div>
+						</div>
+						
+						<div class="member-details">
+							<div>
+								<img src="https://axis.org/wp-content/uploads/2015/12/2015-Dougie-Headshot.png" alt="UI Designer">
+								<div class="member-info">
+									<h3>John Doe</h3>
+									<p>UI Designer</p>
+								</div>
+							</div>
+						</div>
+					</li><!-- /single member row ends -->
+
+					<!-- single member row starts -->
+					<li class="clearfix">
+						<div class="member-details">
+							<div>
+								<img src="https://axis.org/wp-content/uploads/2014/10/chris-headshot.png" alt="UI Designer">
+								<div class="member-info">
+									<h3>John Doe</h3>
+									<p>UI Designer</p>
+								</div>
+							</div>
+						</div>
+						
+						<div class="member-details">
+							<div>
+								<img src="https://axis.org/wp-content/uploads/2014/12/jeremiah-e1418073411753.png" alt="UI Designer">
+								<div class="member-info">
+									<h3>John Doe</h3>
+									<p>UI Designer</p>
+								</div>
+							</div>
+						</div>
+						
+						<div class="member-details">
+							<div>
+								<img src="images/team1.jpg" alt="UI Designer">
+								<div class="member-info">
+									<h3>John Doe</h3>
+									<p>UI Designer</p>
+								</div>
+							</div>
+						</div>
+					</li><!-- /single member row ends -->
+
+				</ul><!-- /end team-photos -->
+			</div><!-- /end col-md-8 -->
+			
+			<div class="pull-left col-md-4 sm-text-center">
+				<div class="team-overview">
+					<h2>Qui sommes nous?</h2>
+					<a href="#">Rencontrez toute l'équipe</a>
+					<p><div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci quae nesciunt officia! Autem, nam eum voluptatem, esse voluptatibus deleniti tempora laboriosam sequi pariatur, explicabo itaque. Fuga, deserunt? Repudiandae, neque qui.</div></p>
+				</div>
+			</div><!-- /end col-md-4 -->
+		</div><!-- /end row -->
+	</div><!-- /end container -->
+</section>
+
 
   <section class="ftco-freeTrial">
   	<div class="container">
