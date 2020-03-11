@@ -131,7 +131,7 @@
             <img src="images/coach.jpg" alt="image du professeur" style="height:35vh;">
             <!--  Content -->
             <div class="course-content">
-              <a href="#" ><h4>Ibrahima K. Ba</h4></a>
+              <a href="#" ><h4>Coach Inconnue</h4></a>
               <div class="meta d-flex align-items-center">
                 <a href="#"><i class="fas fa-graduation-cap"></i> Français</a>
                 <a href="regular-page.html"><i class="fas fa-rocket"></i> Scondaire</a>
@@ -160,7 +160,7 @@
             <img src="images/coach-sarr.jpg" alt="image du professeur" style="height:35vh;">
             <!--  Content -->
             <div class="course-content">
-              <a href="#" ><h4>Sadio Bakeli</h4></a>
+              <a href="#" ><h4>Coach sarr</h4></a>
               <div class="meta d-flex align-items-center">
                 <a href="#"><i class="fas fa-graduation-cap"></i> Developpement web</a>
                 <a href="regular-page.html"><i class="fas fa-rocket"> </i>Full stack</a>
@@ -183,7 +183,6 @@
             </div>
           </div>
         </div>
-
       </div>
            
       <div class="row">
@@ -242,6 +241,134 @@
 	      </div>
       </div>
   	</div>
+  </section>
+  
+  <section class="ftco-freeTrial">
+  	<div class="container">
+  		<div class="row">
+  			<div class="col-md-12">
+  				<div class="d-flex align-items-center">
+		    		<div class="free-trial ftco-animate">
+		    			<h3>Nos evenements</h3>
+		    			<p>Nous serons ravis de vous recevoir a nos evenements! </p>
+		    		</div>
+		    		<div class="btn-join ftco-animate">
+		    			<p><a href="{{ url('/event') }}" class="btn btn-primary py-3 px-4">Nos evenements</a></p>
+		    		</div>
+		    	</div>
+  			</div>
+  		</div>
+  	</div>
+  </section>
+
+  <section class="ftco-section bg-light">
+    <div class="container">
+      <div class="row justify-content-center mb-5 pb-3">
+        <div class="col-md-7 heading-section ftco-animate text-center">
+          <h2 class="mb-4">Récent du blog</h2>
+        </div>
+      </div>
+      <div class="row d-flex">
+        <div class="col-md-4 d-flex ftco-animate">
+        	<div class="blog-entry align-self-stretch">
+            <a href="blog-single.html" class="block-20" style="background-image: url('images/blog1.jpg');">
+            </a>
+            <div class="text p-4 d-block">
+            	<div class="meta mb-3">
+                <div><a href="#">12 août 2019</a></div>
+                <div><a href="#">Admin</a></div>
+              </div>
+              <h3 class="heading mt-3"><a href="#">Comment se démarquer au début de votre carrière UX</a></h3>
+              <p>Une petite rivière nommée Duden coule à leur place et lui fournit les regelialia nécessaires. <a href="#" class="free text-primary">Lire plus</a></p></p>
+            </div>
+            <!-- like comment share Fee -->
+            <div class="like-comment-fee d-flex justify-content-between">
+              <div class="like-comment h-100 d-flex align-items-center">
+                <div class="like">
+                  <span><a href="#"><i class="fas fa-thumbs-up"></i></a> 21</span> 
+                </div>
+                <div class="comment">
+                  <span><a href="#"><i class="fas fa-comment-dots"></i></a> 14</span>
+                </div>
+              </div>
+              <div class="share h-100">
+                partager
+                  <span><a href="#"><i class="fab fa-facebook-f"></i></a></span>
+                  <span><a href="#"><i class="fab fa-twitter"></i></a></span>
+                  <span><a href="#"><i class="fab fa-linkedin"></i></a></span>
+                  <span><a href="#"><i class="fab fa-whatsapp-square"></i></a></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 d-flex ftco-animate">
+        	<div class="blog-entry align-self-stretch">
+            <a href="blog-single.html" class="block-20" style="background-image: url('images/blog2.jpg');">
+            </a>
+            <div class="text p-4 d-block">
+            	<div class="meta mb-3">
+                <div><a href="#">12 août 2019</a></div>
+                <div><a href="#">Admin</a></div>
+              </div>
+              <h3 class="heading mt-3"><a href="#">Comment se démarquer au début de votre carrière UX</a></h3>
+              <p>Une petite rivière nommée Duden coule à leur place et lui fournit les regelialia nécessaires. <a href="#" class="free text-primary">Lire plus</a></p></p>
+            </div>
+            <!-- like comment share Fee -->
+            <div class="like-comment-fee d-flex justify-content-between">
+              <div class="like-comment h-100 d-flex align-items-center">
+                <div class="like">
+                  <span><a href="#"><i class="fas fa-thumbs-up"></i></a> 21</span> 
+                </div>
+                <div class="comment">
+                  <span><a href="#"><i class="fas fa-comment-dots"></i></a> 14</span>
+                </div>
+              </div>
+              <div class="share h-100">
+                partager
+                  <span><a href="#"><i class="fab fa-facebook-f"></i></a></span>
+                  <span><a href="#"><i class="fab fa-twitter"></i></a></span>
+                  <span><a href="#"><i class="fab fa-linkedin"></i></a></span>
+                  <span><a href="#"><i class="fab fa-whatsapp-square"></i></a></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 d-flex ftco-animate">
+        	<div class="blog-entry align-self-stretch">
+            <a href="blog-single.html" class="block-20" style="background-image: url('images/blog3.jpg');">
+            </a>
+            <div class="text p-4 d-block">
+            	<div class="meta mb-3">
+                <div><a href="#">12 août 2019</a></div>
+                <div><a href="#">Admin</a></div>
+              </div>
+              <h3 class="heading mt-3"><a href="#">Comment se démarquer au début de votre carrière UX</a></h3>
+              <p>Une petite rivière nommée Duden coule à leur place et lui fournit les regelialia nécessaires. <a href="#" class="free text-primary">Lire plus</a></p>
+            </div>
+            <!-- like comment share Fee -->
+            <div class="like-comment-fee d-flex justify-content-between">
+              <div class="like-comment h-100 d-flex align-items-center">
+                <div class="like">
+                  <span><a href="#"><i class="fas fa-thumbs-up"></i></a> 21</span> 
+                </div>
+                <div class="comment">
+                  <span><a href="#"><i class="fas fa-comment-dots"></i></a> 14</span>
+                </div>
+              </div>
+              <div class="share h-100">
+                partager
+                  <span><a href="#"><i class="fab fa-facebook-f"></i></a></span>
+                  <span><a href="#"><i class="fab fa-twitter"></i></a></span>
+                  <span><a href="#"><i class="fab fa-linkedin"></i></a></span>
+                  <span><a href="#"><i class="fab fa-whatsapp-square"></i></a></span>
+              </div>
+            </div>
+          </div>
+        </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
   <section class="ftco-section testimony-section">
@@ -309,63 +436,6 @@
                   <span class="position">Business</span>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  
-  <section class="ftco-section bg-light">
-    <div class="container">
-      <div class="row justify-content-center mb-5 pb-3">
-        <div class="col-md-7 heading-section ftco-animate text-center">
-          <h2 class="mb-4">Récent du blog</h2>
-        </div>
-      </div>
-      <div class="row d-flex">
-        <div class="col-md-4 d-flex ftco-animate">
-        	<div class="blog-entry align-self-stretch">
-            <a href="blog-single.html" class="block-20" style="background-image: url('images/image_1.jpg');">
-            </a>
-            <div class="text p-4 d-block">
-            	<div class="meta mb-3">
-                <div><a href="#">12 août 2019</a></div>
-                <div><a href="#">Admin</a></div>
-                <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-              </div>
-              <h3 class="heading mt-3"><a href="#">Comment se démarquer au début de votre carrière UX</a></h3>
-              <p>Une petite rivière nommée Duden coule à leur place et lui fournit les regelialia nécessaires.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 d-flex ftco-animate">
-        	<div class="blog-entry align-self-stretch">
-            <a href="blog-single.html" class="block-20" style="background-image: url('images/image_2.jpg');">
-            </a>
-            <div class="text p-4 d-block">
-            	<div class="meta mb-3">
-                <div><a href="#">12 août 2019</a></div>
-                <div><a href="#">Admin</a></div>
-                <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-              </div>
-              <h3 class="heading mt-3"><a href="#">Comment se démarquer au début de votre carrière UX</a></h3>
-              <p>Une petite rivière nommée Duden coule à leur place et lui fournit les regelialia nécessaires.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 d-flex ftco-animate">
-        	<div class="blog-entry align-self-stretch">
-            <a href="blog-single.html" class="block-20" style="background-image: url('images/image_3.jpg');">
-            </a>
-            <div class="text p-4 d-block">
-            	<div class="meta mb-3">
-                <div><a href="#">12 août 2019</a></div>
-                <div><a href="#">Admin</a></div>
-                <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-              </div>
-              <h3 class="heading mt-3"><a href="#">Comment se démarquer au début de votre carrière UX</a></h3>
-              <p>Une petite rivière nommée Duden coule à leur place et lui fournit les regelialia nécessaires.</p>
             </div>
           </div>
         </div>
@@ -490,25 +560,6 @@
   			</div><!-- /end col-md-4 -->
   		</div><!-- /end row -->
   	</div><!-- /end container -->
-  </section>
-
-
-  <section class="ftco-freeTrial">
-  	<div class="container">
-  		<div class="row">
-  			<div class="col-md-12">
-  				<div class="d-flex align-items-center">
-		    		<div class="free-trial ftco-animate">
-		    			<h3>Nos evenements</h3>
-		    			<p>Nous serons ravis de vous recevoir a nos evenements! </p>
-		    		</div>
-		    		<div class="btn-join ftco-animate">
-		    			<p><a href="{{ url('/event') }}" class="btn btn-primary py-3 px-4">Nos evenements</a></p>
-		    		</div>
-		    	</div>
-  			</div>
-  		</div>
-  	</div>
   </section>
 
 	<section class="ftco-section-parallax">
