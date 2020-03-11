@@ -106,7 +106,7 @@
                 <a href="#"><i class="fas fa-graduation-cap"></i> Developpement web</a>
                 <a href="regular-page.html"><i class="fas fa-rocket"></i> Full stack</a>
               </div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, quaerat sed? Possimus tenetur veritatis necessitatibus....</p>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, sapiente consequuntur dolore corrupti odio alias voluptates obcaecati reiciendis ipsam. Dolore! <a href="#" class="free text-primary">Lire plus</a></p>
             </div>
             <!-- Seat Rating Fee -->
             <div class="seat-rating-fee d-flex justify-content-between">
@@ -136,7 +136,7 @@
                 <a href="#"><i class="fas fa-graduation-cap"></i> Français</a>
                 <a href="regular-page.html"><i class="fas fa-rocket"></i> Scondaire</a>
               </div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, quaerat sed? Possimus tenetur veritatis necessitatibus....</p>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, sapiente consequuntur dolore corrupti odio alias voluptates obcaecati reiciendis ipsam. Dolore! <a href="#" class="free text-primary">Lire plus</a></p>
             </div>
             <!-- Seat Rating Fee -->
             <div class="seat-rating-fee d-flex justify-content-between">
@@ -165,7 +165,7 @@
                 <a href="#"><i class="fas fa-graduation-cap"></i> Developpement web</a>
                 <a href="regular-page.html"><i class="fas fa-rocket"> </i>Full stack</a>
               </div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, quaerat sed? Possimus tenetur veritatis necessitatibus....</p>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, sapiente consequuntur dolore corrupti odio alias voluptates obcaecati reiciendis ipsam. Dolore! <a href="#" class="free text-primary">Lire plus</a></p>
             </div>
             <!-- Seat Rating Fee -->
             <div class="seat-rating-fee d-flex justify-content-between">
@@ -187,8 +187,8 @@
            
       <div class="row">
         <div class="col-12">
-          <div class="load-more text-center wow fadeInUp" data-wow-delay="1000ms" style="margin-top:15px; margin-bottom: 30px;">
-            <a href="#" class="btn btn-primary px-4 py-3">En savoir plus</a>
+          <div class="load-more text-center wow fadeInUp" data-wow-delay="1000ms" style="margin-top:30px; margin-bottom: 60px;">
+            <a href="#" class="btn btn-primary px-4 py-3">Voir les professeurs</a>
           </div>
         </div>
       </div>
@@ -243,6 +243,20 @@
   	</div>
   </section>
   
+  <section class="ftco-section-3 img" style="background-image: url(images/video_bg.jpg);">
+  	<div class="overlay"></div>
+  	<div class="container">
+  		<div class="row d-md-flex justify-content-center">
+  			<div class="col-md-9 about-video text-center">
+  				<h2 class="ftco-animate">SamaProf le meilleur site web pour le recrutement de vos professeur!</h2>
+  				<div class="video d-flex justify-content-center">
+  					<a href="https://www.youtube.com/watch?v=_hvMJmCNCQU" class="button popup-vimeo d-flex justify-content-center align-items-center"><span class="ion-ios-play"></span></a>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+  </section>
+
   <section class="ftco-freeTrial">
   	<div class="container">
   		<div class="row">
@@ -271,7 +285,7 @@
       <div class="row d-flex">
         <div class="col-md-4 d-flex ftco-animate">
         	<div class="blog-entry align-self-stretch">
-            <a href="blog-single.html" class="block-20" style="background-image: url('images/blog1.jpg');">
+            <a href="blog-single.html" class="block-20" style="background-image: url('images/blog1.jpg'); height:35vh;">
             </a>
             <div class="text p-4 d-block">
             	<div class="meta mb-3">
@@ -279,7 +293,7 @@
                 <div><a href="#">Admin</a></div>
               </div>
               <h3 class="heading mt-3"><a href="#">Comment se démarquer au début de votre carrière UX</a></h3>
-              <p>Une petite rivière nommée Duden coule à leur place et lui fournit les regelialia nécessaires. <a href="#" class="free text-primary">Lire plus</a></p></p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi aperiam dolores accusamus molestiae vero at. <a href="#" class="free text-primary">Lire plus</a></p></p>
             </div>
             <!-- like comment share Fee -->
             <div class="like-comment-fee d-flex justify-content-between">
@@ -303,7 +317,7 @@
         </div>
         <div class="col-md-4 d-flex ftco-animate">
         	<div class="blog-entry align-self-stretch">
-            <a href="blog-single.html" class="block-20" style="background-image: url('images/blog2.jpg');">
+            <a href="blog-single.html" class="block-20" style="background-image: url('images/blog2.jpg'); height:35vh;">
             </a>
             <div class="text p-4 d-block">
             	<div class="meta mb-3">
@@ -311,7 +325,7 @@
                 <div><a href="#">Admin</a></div>
               </div>
               <h3 class="heading mt-3"><a href="#">Comment se démarquer au début de votre carrière UX</a></h3>
-              <p>Une petite rivière nommée Duden coule à leur place et lui fournit les regelialia nécessaires. <a href="#" class="free text-primary">Lire plus</a></p></p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nobis, corrupti qui maxime eos libero. <a href="#" class="free text-primary">Lire plus</a></p></p>
             </div>
             <!-- like comment share Fee -->
             <div class="like-comment-fee d-flex justify-content-between">
@@ -335,7 +349,7 @@
         </div>
         <div class="col-md-4 d-flex ftco-animate">
         	<div class="blog-entry align-self-stretch">
-            <a href="blog-single.html" class="block-20" style="background-image: url('images/blog3.jpg');">
+            <a href="blog-single.html" class="block-20" style="background-image: url('images/blog3.jpg'); height:35vh;">
             </a>
             <div class="text p-4 d-block">
             	<div class="meta mb-3">
@@ -343,7 +357,7 @@
                 <div><a href="#">Admin</a></div>
               </div>
               <h3 class="heading mt-3"><a href="#">Comment se démarquer au début de votre carrière UX</a></h3>
-              <p>Une petite rivière nommée Duden coule à leur place et lui fournit les regelialia nécessaires. <a href="#" class="free text-primary">Lire plus</a></p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, aliquid voluptas corporis asperiores officia totam. <a href="#" class="free text-primary">Lire plus</a></p>
             </div>
             <!-- like comment share Fee -->
             <div class="like-comment-fee d-flex justify-content-between">
@@ -365,8 +379,15 @@
             </div>
           </div>
         </div>
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-12">
+          <div class="load-more text-center wow fadeInUp" data-wow-delay="1000ms" style="margin-top:30px; margin-bottom: 60px;">
+            <a href="#" class="btn btn-primary px-4 py-3">En savoir plus</a>
           </div>
         </div>
+      </div>
       </div>
     </div>
   </section>
