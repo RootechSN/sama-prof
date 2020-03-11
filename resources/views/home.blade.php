@@ -315,209 +315,7 @@
       </div>
     </div>
   </section>
-
-<section class="section-team-body">
-	<div class="container">
-		<div class="row flex-center sm-no-flex">
-
-			<div class="pull-right sm-no-float col-md-8">
-				<ul class="team-members">
-					<!-- single member row starts -->
-					<li class="clearfix">
-						<div class="member-details">
-							<div>
-								<img src="http://gocheckers.com/images/roster/andrew_poturalski_headshot_1718.png" alt="UI Designer">
-								<div class="member-info">
-									<h3>John Doe</h3>
-									<p>UI Designer</p>
-								</div>
-							</div>
-						</div>
-						
-						<div class="member-details">
-							<div>
-								<img src="http://gocheckers.com/images/roster/josh_wesley_headshot_1718.png" alt="UI Designer">
-								<div class="member-info">
-									<h3>John Doe</h3>
-									<p>UI Designer</p>
-								</div>
-							</div>
-						</div>
-						
-						<div class="member-details">
-							<div>
-								<img src="https://axis.org/wp-content/uploads/2014/10/chris-headshot.png" alt="UI Designer">
-								<div class="member-info">
-									<h3>John Doe</h3>
-									<p>UI Designer</p>
-								</div>
-							</div>
-						</div>
-					</li><!-- /single member row ends -->
-					
-					<!-- single member row starts -->
-					<li class="clearfix">
-						<div class="member-details">
-							<div>
-								<img src="https://axis.org/wp-content/uploads/2015/05/evan-headshot.png" alt="UI Designer">
-								<div class="member-info">
-									<h3>John Doe</h3>
-									<p>UI Designer</p>
-								</div>
-							</div>
-						</div>
-						
-						<div class="member-details">
-							<div>
-								<img src="http://gocheckers.com/images/roster/andrew_poturalski_headshot_1718.png" alt="UI Designer">
-								<div class="member-info">
-									<h3>John Doe</h3>
-									<p>UI Designer</p>
-								</div>
-							</div>
-						</div>
-						
-						<div class="member-details">
-							<div>
-								<img src="https://axis.org/wp-content/uploads/2015/12/2015-Dougie-Headshot.png" alt="UI Designer">
-								<div class="member-info">
-									<h3>John Doe</h3>
-									<p>UI Designer</p>
-								</div>
-							</div>
-						</div>
-					</li><!-- /single member row ends -->
-
-					<!-- single member row starts -->
-					<li class="clearfix">
-						<div class="member-details">
-							<div>
-								<img src="https://axis.org/wp-content/uploads/2014/10/chris-headshot.png" alt="UI Designer">
-								<div class="member-info">
-									<h3>John Doe</h3>
-									<p>UI Designer</p>
-								</div>
-							</div>
-						</div>
-						
-						<div class="member-details">
-							<div>
-								<img src="https://axis.org/wp-content/uploads/2014/12/jeremiah-e1418073411753.png" alt="UI Designer">
-								<div class="member-info">
-									<h3>John Doe</h3>
-									<p>UI Designer</p>
-								</div>
-							</div>
-						</div>
-						
-						<div class="member-details">
-							<div>
-								<img src="images/team1.jpg" alt="UI Designer">
-								<div class="member-info">
-									<h3>John Doe</h3>
-									<p>UI Designer</p>
-								</div>
-							</div>
-						</div>
-					</li><!-- /single member row ends -->
-
-				</ul><!-- /end team-photos -->
-			</div><!-- /end col-md-8 -->
-			
-			<div class="pull-left col-md-4 sm-text-center">
-				<div class="team-overview">
-					<h2>Qui sommes nous?</h2>
-					<a href="#">Rencontrez toute l'équipe</a>
-					<p><div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci quae nesciunt officia! Autem, nam eum voluptatem, esse voluptatibus deleniti tempora laboriosam sequi pariatur, explicabo itaque. Fuga, deserunt? Repudiandae, neque qui.</div></p>
-				</div>
-			</div><!-- /end col-md-4 -->
-		</div><!-- /end row -->
-	</div><!-- /end container -->
-</section>
-
-
-  <section class="ftco-freeTrial">
-  	<div class="container">
-  		<div class="row">
-  			<div class="col-md-12">
-  				<div class="d-flex align-items-center">
-		    		<div class="free-trial ftco-animate">
-		    			<h3>Nos evenements</h3>
-		    			<p>Nous serons ravis de vous recevoir a nos evenements! </p>
-		    		</div>
-		    		<div class="btn-join ftco-animate">
-		    			<p><a href="{{ url('/event') }}" class="btn btn-primary py-3 px-4">Nos evenements</a></p>
-		    		</div>
-		    	</div>
-  			</div>
-  		</div>
-  	</div>
-  </section>
-
-    
-  <section class="ftco-section">
-    <div class="container">
-      <div class="row justify-content-center mb-5 pb-3">
-        <div class="col-md-7 heading-section ftco-animate text-center">
-          <h2 class="mb-4">Nos derniers événements</h2>
-        </div>
-      </div>
-      <div class="row">
-      	<div class="col-md-4 d-flex ftco-animate">
-        	<div class="blog-entry align-self-stretch">
-            <a href="blog-single.html" class="block-20" style="background-image: url('images/event-1.jpg');">
-            </a>
-            <div class="text p-4 d-block">
-            	<div class="meta mb-3">
-                <div><a href="#">Sep. 10, 2018</a></div>
-                <div><a href="#">Admin</a></div>
-                <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-              </div>
-              <h3 class="heading mb-4"><a href="#">Intern Bootcamp Meetup 2018</a></h3>
-              <p class="time-loc"><span class="mr-2"><i class="icon-clock-o"></i> 10:30AM-03:30PM</span> <span><i class="icon-map-o"></i> Venue Main Campus</span></p>
-              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-              <p><a href="event.html">Join Event <i class="ion-ios-arrow-forward"></i></a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 d-flex ftco-animate">
-        	<div class="blog-entry d-flex align-self-stretch flex-column-reverse">
-            <a href="blog-single.html" class="block-20" style="background-image: url('images/event-2.jpg');">
-            </a>
-            <div class="text p-4 d-block">
-            	<div class="meta mb-3">
-                <div><a href="#">Sep. 10, 2018</a></div>
-                <div><a href="#">Admin</a></div>
-                <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-              </div>
-              <h3 class="heading mb-4"><a href="#">Intern Bootcamp Meetup 2018</a></h3>
-              <p class="time-loc"><span class="mr-2"><i class="icon-clock-o"></i> 10:30AM-03:30PM</span> <span><i class="icon-map-o"></i> Venue Main Campus</span></p>
-              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-              <p><a href="event.html">Join Event <i class="ion-ios-arrow-forward"></i></a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 d-flex ftco-animate">
-        	<div class="blog-entry align-self-stretch">
-            <a href="blog-single.html" class="block-20" style="background-image: url('images/event-3.jpg');">
-            </a>
-            <div class="text p-4 d-block">
-            	<div class="meta mb-3">
-                <div><a href="#">10 septembre 2020</a></div>
-                <div><a href="#">Admin</a></div>
-                <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-              </div>
-              <h3 class="heading mb-4"><a href="#">Stagiaire Bootcamp Meetup 2020</a></h3>
-              <p class="time-loc"><span class="mr-2"><i class="icon-clock-o"></i> 10 h 30 à 15 h 30</span> <span><i class="icon-map-o"></i> Venue Main Campus</span></p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime optio exercitationem quas corrupti quasi officiis.</p>
-              <p><a href="{{ url('event') }}">Participer <i class="ion-ios-arrow-forward"></i></a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
+  
   <section class="ftco-section bg-light">
     <div class="container">
       <div class="row justify-content-center mb-5 pb-3">
@@ -575,6 +373,144 @@
     </div>
   </section>
 	
+  <section class="section-team-body">
+  	<div class="container">
+  		<div class="row flex-center sm-no-flex">
+  
+  			<div class="pull-right sm-no-float col-md-8">
+  				<ul class="team-members">
+  					<!-- single member row starts -->
+  					<li class="clearfix">
+  						<div class="member-details">
+  							<div>
+  								<img src="http://gocheckers.com/images/roster/andrew_poturalski_headshot_1718.png" alt="UI Designer">
+  								<div class="member-info">
+  									<h3>John Doe</h3>
+  									<p>UI Designer</p>
+  								</div>
+  							</div>
+  						</div>
+  						
+  						<div class="member-details">
+  							<div>
+  								<img src="http://gocheckers.com/images/roster/josh_wesley_headshot_1718.png" alt="UI Designer">
+  								<div class="member-info">
+  									<h3>John Doe</h3>
+  									<p>UI Designer</p>
+  								</div>
+  							</div>
+  						</div>
+  						
+  						<div class="member-details">
+  							<div>
+  								<img src="https://axis.org/wp-content/uploads/2014/10/chris-headshot.png" alt="UI Designer">
+  								<div class="member-info">
+  									<h3>John Doe</h3>
+  									<p>UI Designer</p>
+  								</div>
+  							</div>
+  						</div>
+  					</li><!-- /single member row ends -->
+  					
+  					<!-- single member row starts -->
+  					<li class="clearfix">
+  						<div class="member-details">
+  							<div>
+  								<img src="https://axis.org/wp-content/uploads/2015/05/evan-headshot.png" alt="UI Designer">
+  								<div class="member-info">
+  									<h3>John Doe</h3>
+  									<p>UI Designer</p>
+  								</div>
+  							</div>
+  						</div>
+  						
+  						<div class="member-details">
+  							<div>
+  								<img src="http://gocheckers.com/images/roster/andrew_poturalski_headshot_1718.png" alt="UI Designer">
+  								<div class="member-info">
+  									<h3>John Doe</h3>
+  									<p>UI Designer</p>
+  								</div>
+  							</div>
+  						</div>
+  						
+  						<div class="member-details">
+  							<div>
+  								<img src="https://axis.org/wp-content/uploads/2015/12/2015-Dougie-Headshot.png" alt="UI Designer">
+  								<div class="member-info">
+  									<h3>John Doe</h3>
+  									<p>UI Designer</p>
+  								</div>
+  							</div>
+  						</div>
+  					</li><!-- /single member row ends -->
+  
+  					<!-- single member row starts -->
+  					<li class="clearfix">
+  						<div class="member-details">
+  							<div>
+  								<img src="https://axis.org/wp-content/uploads/2014/10/chris-headshot.png" alt="UI Designer">
+  								<div class="member-info">
+  									<h3>John Doe</h3>
+  									<p>UI Designer</p>
+  								</div>
+  							</div>
+  						</div>
+  						
+  						<div class="member-details">
+  							<div>
+  								<img src="https://axis.org/wp-content/uploads/2014/12/jeremiah-e1418073411753.png" alt="UI Designer">
+  								<div class="member-info">
+  									<h3>John Doe</h3>
+  									<p>UI Designer</p>
+  								</div>
+  							</div>
+  						</div>
+  						
+  						<div class="member-details">
+  							<div>
+  								<img src="images/team1.jpg" alt="UI Designer">
+  								<div class="member-info">
+  									<h3>John Doe</h3>
+  									<p>UI Designer</p>
+  								</div>
+  							</div>
+  						</div>
+  					</li><!-- /single member row ends -->
+  
+  				</ul><!-- /end team-photos -->
+  			</div><!-- /end col-md-8 -->
+  			
+  			<div class="pull-left col-md-4 sm-text-center">
+  				<div class="team-overview">
+  					<h2>Qui sommes nous?</h2>
+  					<a href="#">Rencontrez toute l'équipe</a>
+  					<p><div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci quae nesciunt officia! Autem, nam eum voluptatem, esse voluptatibus deleniti tempora laboriosam sequi pariatur, explicabo itaque. Fuga, deserunt? Repudiandae, neque qui.</div></p>
+  				</div>
+  			</div><!-- /end col-md-4 -->
+  		</div><!-- /end row -->
+  	</div><!-- /end container -->
+  </section>
+
+
+  <section class="ftco-freeTrial">
+  	<div class="container">
+  		<div class="row">
+  			<div class="col-md-12">
+  				<div class="d-flex align-items-center">
+		    		<div class="free-trial ftco-animate">
+		    			<h3>Nos evenements</h3>
+		    			<p>Nous serons ravis de vous recevoir a nos evenements! </p>
+		    		</div>
+		    		<div class="btn-join ftco-animate">
+		    			<p><a href="{{ url('/event') }}" class="btn btn-primary py-3 px-4">Nos evenements</a></p>
+		    		</div>
+		    	</div>
+  			</div>
+  		</div>
+  	</div>
+  </section>
+
 	<section class="ftco-section-parallax">
     <div class="parallax-img d-flex align-items-center">
       <div class="container">
