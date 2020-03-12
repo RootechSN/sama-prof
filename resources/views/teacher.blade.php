@@ -45,7 +45,7 @@
         			<div class="d-flex mb-4">
         				<div class="img" style="background-image: url(images/person_2.jpg);"></div>
         				<div class="info ml-4">
-        					<h3><a href="teacher-single.html">Ivan Jacobson</a></h3>
+        					<h3><a href="{{ url('/teacher-single') }}">Ivan Jacobson</a></h3>
         					<span class="position">CSE Teacher</span>
         					<p class="ftco-social d-flex">
 		                <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-twitter"></span></a>
