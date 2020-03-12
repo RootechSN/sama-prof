@@ -44,8 +44,8 @@
             <li class="nav-item"><a href="{{ url('/contact')}}" class="nav-link">Contact</a></li>
           </ul>
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item cta"><a href="{{ url('/connexion')}}" class="nav-link"><span>Connexion</span></a></li>
-            <li class="nav-item cta"><a href="{{ url('/inscription')}}" class="nav-link"><span>Inscription</span></a></li>
+            <li class="nav-item cta"><a href="{{ url('/connexion')}}" class="nav-link"><span><i class="fas fa-key"></i> Connexion</span></a></li>
+            <li class="nav-item cta"><a href="{{ url('/inscription')}}" class="nav-link"><span><i class="fas fa-user"></i> Inscription</span></a></li>
           </ul>
         </div>
       </div>

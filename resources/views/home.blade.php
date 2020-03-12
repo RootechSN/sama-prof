@@ -7,7 +7,7 @@
       <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
         <div class="col-md-8 ftco-animate text-center">
           <h1 class="mb-4">Aucune nation ne peut prospérer dans la vie sans éducation</h1>
-          <p><a href="#" class="btn btn-primary px-4 py-3">Recruter</a> <a href="#" class="btn btn-secondary px-4 py-3">Postuler</a></p>
+          <p><a href="{{ url('/teacher') }}" class="btn btn-primary px-4 py-3">Voir nos professeurs</a> <a href="{{ url('/school') }}" class="btn btn-secondary px-4 py-3">Voir nos recruteurs</a></p>
         </div>
       </div>
     </div>

@@ -39,10 +39,10 @@
                         <div class="seat-rating-fee d-flex justify-content-between">
                             <div class="seat-rating h-100 d-flex align-items-center">
                                 <div class="seat">
-                                    <span><i class="fas fa-eye"></i> 10</span> 
+                                    <span><a href="#"><i class="fas fa-eye"></i></a> 10</span> 
                                 </div>
                                 <div class="rating">
-                                    <span><i class="fa fa-star" aria-hidden="true"></i> 4.5</span>
+                                    <span><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> 4.5</span>
                                 </div>
                             </div>
                             <div class="course-fee h-100">
@@ -69,10 +69,10 @@
                         <div class="seat-rating-fee d-flex justify-content-between">
                             <div class="seat-rating h-100 d-flex align-items-center">
                                 <div class="seat">
-                                    <span><i class="fas fa-eye"></i> 10</span> 
+                                    <span><a href="#"><i class="fas fa-eye"></i></a> 10</span> 
                                 </div>
                                 <div class="rating">
-                                    <span><i class="fa fa-star" aria-hidden="true"></i> 4.5</span>
+                                    <span><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> 4.5</span>
                                 </div>
                             </div>
                             <div class="course-fee h-100">
@@ -98,10 +98,10 @@
                         <div class="seat-rating-fee d-flex justify-content-between">
                             <div class="seat-rating h-100 d-flex align-items-center">
                                 <div class="seat">
-                                    <span><i class="fas fa-eye"></i> 10</span> 
+                                    <span><a href="#"><i class="fas fa-eye"></i></a> 10</span> 
                                 </div>
                                 <div class="rating">
-                                    <span><i class="fa fa-star" aria-hidden="true"></i> 4.5</span>
+                                    <span><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> 4.5</span>
                                 </div>
                             </div>
                             <div class="course-fee h-100">
@@ -130,7 +130,7 @@
                   <div class="seat-rating-fee d-flex justify-content-between">
                     <div class="seat-rating h-100 d-flex align-items-center">
                       <div class="seat">
-                        <span><i class="fas fa-eye"></i> 10</span> 
+                        <span><a href="#"><i class="fas fa-eye"></i></a> 10</span> 
                       </div>
                       <div class="rating">
                         <span><i class="fa fa-star" aria-hidden="true"></i> 4.5</span>
@@ -160,10 +160,10 @@
                   <div class="seat-rating-fee d-flex justify-content-between">
                     <div class="seat-rating h-100 d-flex align-items-center">
                       <div class="seat">
-                        <span><i class="fas fa-eye"></i> 10</span> 
+                        <span><a href="#"><i class="fas fa-eye"></i></a> 10</span> 
                       </div>
                       <div class="rating">
-                        <span><i class="fa fa-star" aria-hidden="true"></i> 4.5</span>
+                        <span><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> 4.5</span>
                       </div>
                     </div>
                     <div class="course-fee h-100">
@@ -189,10 +189,10 @@
                   <div class="seat-rating-fee d-flex justify-content-between">
                     <div class="seat-rating h-100 d-flex align-items-center">
                       <div class="seat">
-                        <span><i class="fas fa-eye"></i> 10</span> 
+                        <span><a href="#"><i class="fas fa-eye"></i></a> 10</span> 
                       </div>
                       <div class="rating">
-                        <span><i class="fa fa-star" aria-hidden="true"></i> 4.5</span>
+                        <span><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> 4.5</span>
                       </div>
                     </div>
                     <div class="course-fee h-100">
@@ -224,7 +224,7 @@
                                     <span><i class="fas fa-eye"></i> 10</span> 
                                 </div>
                                 <div class="rating">
-                                    <span><i class="fa fa-star" aria-hidden="true"></i> 4.5</span>
+                                    <span><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> 4.5</span>
                                 </div>
                             </div>
                             <div class="course-fee h-100">
@@ -251,10 +251,10 @@
                         <div class="seat-rating-fee d-flex justify-content-between">
                             <div class="seat-rating h-100 d-flex align-items-center">
                                 <div class="seat">
-                                    <span><i class="fas fa-eye"></i> 10</span> 
+                                    <span><a href="#"><i class="fas fa-eye"></i></a> 10</span> 
                                 </div>
                                 <div class="rating">
-                                    <span><i class="fa fa-star" aria-hidden="true"></i> 4.5</span>
+                                    <span><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> 4.5</span>
                                 </div>
                             </div>
                             <div class="course-fee h-100">
@@ -280,10 +280,10 @@
                         <div class="seat-rating-fee d-flex justify-content-between">
                             <div class="seat-rating h-100 d-flex align-items-center">
                                 <div class="seat">
-                                    <span><i class="fas fa-eye"></i> 10</span> 
+                                    <span><a href="#"><i class="fas fa-eye"></i></a> 10</span> 
                                 </div>
                                 <div class="rating">
-                                    <span><i class="fa fa-star" aria-hidden="true"></i> 4.5</span>
+                                    <span><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a> 4.5</span>
                                 </div>
                             </div>
                             <div class="course-fee h-100">
