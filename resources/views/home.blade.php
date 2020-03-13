@@ -7,7 +7,7 @@
       <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
         <div class="col-md-8 ftco-animate text-center">
           <h1 class="mb-4">Aucune nation ne peut prospérer dans la vie sans éducation</h1>
-          <p><a href="#" class="btn btn-primary px-4 py-3">Recruter</a> <a href="#" class="btn btn-secondary px-4 py-3">Postuler</a></p>
+          <p><a href="{{ url('/teacher') }}" class="btn btn-primary px-4 py-3">Voir nos professeurs</a> <a href="{{ url('/school') }}" class="btn btn-secondary px-4 py-3">Voir nos recruteurs</a></p>
         </div>
       </div>
     </div>
@@ -106,7 +106,7 @@
                 <a href="#"><i class="fas fa-graduation-cap"></i> Developpement web</a>
                 <a href="regular-page.html"><i class="fas fa-rocket"></i> Full stack</a>
               </div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, quaerat sed? Possimus tenetur veritatis necessitatibus....</p>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, sapiente consequuntur dolore corrupti odio alias voluptates obcaecati reiciendis ipsam. Dolore! <a href="#" class="free text-primary">Lire plus</a></p>
             </div>
             <!-- Seat Rating Fee -->
             <div class="seat-rating-fee d-flex justify-content-between">
@@ -131,12 +131,12 @@
             <img src="images/coach.jpg" alt="image du professeur" style="height:35vh;">
             <!--  Content -->
             <div class="course-content">
-              <a href="#" ><h4>Ibrahima K. Ba</h4></a>
+              <a href="#" ><h4>Coach Inconnue</h4></a>
               <div class="meta d-flex align-items-center">
                 <a href="#"><i class="fas fa-graduation-cap"></i> Français</a>
                 <a href="regular-page.html"><i class="fas fa-rocket"></i> Scondaire</a>
               </div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, quaerat sed? Possimus tenetur veritatis necessitatibus....</p>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, sapiente consequuntur dolore corrupti odio alias voluptates obcaecati reiciendis ipsam. Dolore! <a href="#" class="free text-primary">Lire plus</a></p>
             </div>
             <!-- Seat Rating Fee -->
             <div class="seat-rating-fee d-flex justify-content-between">
@@ -160,12 +160,12 @@
             <img src="images/coach-sarr.jpg" alt="image du professeur" style="height:35vh;">
             <!--  Content -->
             <div class="course-content">
-              <a href="#" ><h4>Sadio Bakeli</h4></a>
+              <a href="#" ><h4>Coach sarr</h4></a>
               <div class="meta d-flex align-items-center">
                 <a href="#"><i class="fas fa-graduation-cap"></i> Developpement web</a>
                 <a href="regular-page.html"><i class="fas fa-rocket"> </i>Full stack</a>
               </div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, quaerat sed? Possimus tenetur veritatis necessitatibus....</p>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, sapiente consequuntur dolore corrupti odio alias voluptates obcaecati reiciendis ipsam. Dolore! <a href="#" class="free text-primary">Lire plus</a></p>
             </div>
             <!-- Seat Rating Fee -->
             <div class="seat-rating-fee d-flex justify-content-between">
@@ -183,13 +183,12 @@
             </div>
           </div>
         </div>
-
       </div>
            
       <div class="row">
         <div class="col-12">
-          <div class="load-more text-center wow fadeInUp" data-wow-delay="1000ms" style="margin-top:15px; margin-bottom: 30px;">
-            <a href="#" class="btn btn-primary px-4 py-3">En savoir plus</a>
+          <div class="load-more text-center wow fadeInUp" data-wow-delay="1000ms" style="margin-top:30px; margin-bottom: 60px;">
+            <a href="#" class="btn btn-primary px-4 py-3">Voir les professeurs</a>
           </div>
         </div>
       </div>
@@ -206,7 +205,7 @@
 	            <div class="block-18 text-center">
 	              <div class="text">
                   <span style="font-size:30px"><i class="fas fa-briefcase"></i></span>
-	                <strong class="number" data-number="10300">0</strong>
+	                <strong class="number text-primary" data-number="10300">0</strong>
 	                <span>Nombre de professeurs</span>
 	              </div>
 	            </div>
@@ -215,7 +214,7 @@
 	            <div class="block-18 text-center">
 	              <div class="text">
                   <span style="font-size:30px"><i class="fas fa-graduation-cap"></i></span>
-	                <strong class="number" data-number="7896">0</strong>
+	                <strong class="number text-primary" data-number="7896">0</strong>
 	                <span>Nombre d'ecoles</span>
 	              </div>
 	            </div>
@@ -224,7 +223,7 @@
 	            <div class="block-18 text-center">
 	              <div class="text">
                   <span style="font-size:30px"><i class="fas fa-grin-hearts"></i></span>
-	                <strong class="number" data-number="400">0</strong>
+	                <strong class="number text-primary" data-number="400">0</strong>
 	                <span>Professeurs satisfaits</span>
 	              </div>
 	            </div>
@@ -233,7 +232,7 @@
 	            <div class="block-18 text-center text-primary">
 	              <div class="text">
                   <span style="font-size:30px"><i class="fas fa-grin-hearts"></i></span>
-	                <strong class="number" data-number="200">0</strong>
+	                <strong class="number text-primary" data-number="200">0</strong>
 	                <span>Ecoles satisfaits</span>
 	              </div>
 	            </div>
@@ -243,146 +242,19 @@
       </div>
   	</div>
   </section>
-
-  <section class="ftco-section testimony-section">
-    <div class="container">
-    	<div class="row justify-content-center mb-5 pb-3">
-        <div class="col-md-7 heading-section ftco-animate text-center">
-          <h2 class="mb-4">Ce que nos professeurs disent</h2>
-        </div>
-      </div>
-      <div class="row">
-      	<div class="col-md-12 ftco-animate">
-          <div class="carousel-testimony owl-carousel">
-            <div class="item">
-              <div class="testimony-wrap text-center">
-                <div class="user-img mb-5" style="background-image: url(images/person_1.jpg)">
-                  <span class="quote d-flex align-items-center justify-content-center">
-                    <i class="icon-quote-left"></i>
-                  </span>
-                </div>
-                <div class="text">
-                  <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                  <p class="name">Dennis Green</p>
-                  <span class="position">CSE Student</span>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="testimony-wrap text-center">
-                <div class="user-img mb-5" style="background-image: url(images/person_2.jpg)">
-                  <span class="quote d-flex align-items-center justify-content-center">
-                    <i class="icon-quote-left"></i>
-                  </span>
-                </div>
-                <div class="text">
-                  <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                  <p class="name">Dennis Green</p>
-                  <span class="position">Math Student</span>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="testimony-wrap text-center">
-                <div class="user-img mb-5" style="background-image: url(images/person_3.jpg)">
-                  <span class="quote d-flex align-items-center justify-content-center">
-                    <i class="icon-quote-left"></i>
-                  </span>
-                </div>
-                <div class="text">
-                  <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                  <p class="name">Dennis Green</p>
-                  <span class="position">Science Students</span>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="testimony-wrap text-center">
-                <div class="user-img mb-5" style="background-image: url(images/person_3.jpg)">
-                  <span class="quote d-flex align-items-center justify-content-center">
-                    <i class="icon-quote-left"></i>
-                  </span>
-                </div>
-                <div class="text">
-                  <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                  <p class="name">Dennis Green</p>
-                  <span class="position">English Student</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="ftco-section bg-light">
-    <div class="container">
-    	<div class="row justify-content-center mb-5 pb-3">
-        <div class="col-md-7 heading-section ftco-animate text-center">
-          <h2 class="mb-4">Our Experience Advisor</h2>
-        </div>
-      </div>
-      <div class="row">
-      	<div class="col-lg-4 mb-sm-4 ftco-animate">
-      		<div class="staff">
-      			<div class="d-flex mb-4">
-      				<div class="img" style="background-image: url(images/person_1.jpg);"></div>
-      				<div class="info ml-4">
-      					<h3><a href="teacher-single.html">Ivan Jacobson</a></h3>
-      					<span class="position">CSE Teacher</span>
-      					<p class="ftco-social d-flex">
-	                <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-twitter"></span></a>
-	                <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-facebook"></span></a>
-	                <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-instagram"></span></a>
-	              </p>
-      				</div>
-      			</div>
-      			<div class="text">
-      				<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name</p>
-      			</div>
-      		</div>
-      	</div>
-      	<div class="col-lg-4 mb-sm-4 ftco-animate">
-      		<div class="staff">
-      			<div class="d-flex mb-4">
-      				<div class="img" style="background-image: url(images/person_2.jpg);"></div>
-      				<div class="info ml-4">
-      					<h3><a href="teacher-single.html">Ivan Jacobson</a></h3>
-      					<span class="position">CSE Teacher</span>
-      					<p class="ftco-social d-flex">
-	                <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-twitter"></span></a>
-	                <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-facebook"></span></a>
-	                <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-instagram"></span></a>
-	              </p>
-      				</div>
-      			</div>
-      			<div class="text">
-      				<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name</p>
-      			</div>
-      		</div>
-      	</div>
-      	<div class="col-lg-4 mb-sm-4 ftco-animate">
-      		<div class="staff">
-      			<div class="d-flex mb-4">
-      				<div class="img" style="background-image: url(images/person_3.jpg);"></div>
-      				<div class="info ml-4">
-      					<h3><a href="teacher-single.html">Ivan Jacobson</a></h3>
-      					<span class="position">CSE Teacher</span>
-      					<p class="ftco-social d-flex">
-	                <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-twitter"></span></a>
-	                <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-facebook"></span></a>
-	                <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-instagram"></span></a>
-	              </p>
-      				</div>
-      			</div>
-      			<div class="text">
-      				<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name</p>
-      			</div>
-      		</div>
-      	</div>
-      </div>
-    </div>
+  
+  <section class="ftco-section-3 img" style="background-image: url(images/video_bg.jpg);">
+  	<div class="overlay"></div>
+  	<div class="container">
+  		<div class="row d-md-flex justify-content-center">
+  			<div class="col-md-9 about-video text-center">
+  				<h2 class="ftco-animate">SamaProf le meilleur site web pour le recrutement de vos professeur!</h2>
+  				<div class="video d-flex justify-content-center">
+  					<a href="https://www.youtube.com/watch?v=_hvMJmCNCQU" class="button popup-vimeo d-flex justify-content-center align-items-center"><span class="ion-ios-play"></span></a>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
   </section>
 
   <section class="ftco-freeTrial">
@@ -403,70 +275,6 @@
   	</div>
   </section>
 
-    
-  <section class="ftco-section">
-    <div class="container">
-      <div class="row justify-content-center mb-5 pb-3">
-        <div class="col-md-7 heading-section ftco-animate text-center">
-          <h2 class="mb-4">Nos derniers événements</h2>
-        </div>
-      </div>
-      <div class="row">
-      	<div class="col-md-4 d-flex ftco-animate">
-        	<div class="blog-entry align-self-stretch">
-            <a href="blog-single.html" class="block-20" style="background-image: url('images/event-1.jpg');">
-            </a>
-            <div class="text p-4 d-block">
-            	<div class="meta mb-3">
-                <div><a href="#">Sep. 10, 2018</a></div>
-                <div><a href="#">Admin</a></div>
-                <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-              </div>
-              <h3 class="heading mb-4"><a href="#">Intern Bootcamp Meetup 2018</a></h3>
-              <p class="time-loc"><span class="mr-2"><i class="icon-clock-o"></i> 10:30AM-03:30PM</span> <span><i class="icon-map-o"></i> Venue Main Campus</span></p>
-              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-              <p><a href="event.html">Join Event <i class="ion-ios-arrow-forward"></i></a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 d-flex ftco-animate">
-        	<div class="blog-entry d-flex align-self-stretch flex-column-reverse">
-            <a href="blog-single.html" class="block-20" style="background-image: url('images/event-2.jpg');">
-            </a>
-            <div class="text p-4 d-block">
-            	<div class="meta mb-3">
-                <div><a href="#">Sep. 10, 2018</a></div>
-                <div><a href="#">Admin</a></div>
-                <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-              </div>
-              <h3 class="heading mb-4"><a href="#">Intern Bootcamp Meetup 2018</a></h3>
-              <p class="time-loc"><span class="mr-2"><i class="icon-clock-o"></i> 10:30AM-03:30PM</span> <span><i class="icon-map-o"></i> Venue Main Campus</span></p>
-              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-              <p><a href="event.html">Join Event <i class="ion-ios-arrow-forward"></i></a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 d-flex ftco-animate">
-        	<div class="blog-entry align-self-stretch">
-            <a href="blog-single.html" class="block-20" style="background-image: url('images/event-3.jpg');">
-            </a>
-            <div class="text p-4 d-block">
-            	<div class="meta mb-3">
-                <div><a href="#">10 septembre 2020</a></div>
-                <div><a href="#">Admin</a></div>
-                <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-              </div>
-              <h3 class="heading mb-4"><a href="#">Stagiaire Bootcamp Meetup 2020</a></h3>
-              <p class="time-loc"><span class="mr-2"><i class="icon-clock-o"></i> 10 h 30 à 15 h 30</span> <span><i class="icon-map-o"></i> Venue Main Campus</span></p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime optio exercitationem quas corrupti quasi officiis.</p>
-              <p><a href="{{ url('event') }}">Participer <i class="ion-ios-arrow-forward"></i></a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <section class="ftco-section bg-light">
     <div class="container">
       <div class="row justify-content-center mb-5 pb-3">
@@ -477,46 +285,178 @@
       <div class="row d-flex">
         <div class="col-md-4 d-flex ftco-animate">
         	<div class="blog-entry align-self-stretch">
-            <a href="blog-single.html" class="block-20" style="background-image: url('images/image_1.jpg');">
+            <a href="blog-single.html" class="block-20" style="background-image: url('images/blog1.jpg'); height:35vh;">
             </a>
             <div class="text p-4 d-block">
             	<div class="meta mb-3">
-                <div><a href="#">12 août 2019</a></div>
+                <div><a href="#"><span class="icon-calendar"></span> 12 août 2019</a></div>
                 <div><a href="#">Admin</a></div>
-                <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
               </div>
               <h3 class="heading mt-3"><a href="#">Comment se démarquer au début de votre carrière UX</a></h3>
-              <p>Une petite rivière nommée Duden coule à leur place et lui fournit les regelialia nécessaires.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi aperiam dolores accusamus molestiae vero at. <a href="#" class="free text-primary">Lire plus</a></p></p>
+            </div>
+            <!-- like comment share Fee -->
+            <div class="like-comment-fee d-flex justify-content-between">
+              <div class="like-comment h-100 d-flex align-items-center">
+                <div class="like">
+                  <span><a href="#"><i class="fas fa-thumbs-up"></i></a> 21</span> 
+                </div>
+                <div class="comment">
+                  <span><a href="#"><i class="fas fa-comment-dots"></i></a> 14</span>
+                </div>
+              </div>
+              <div class="share h-100">
+                partager
+                  <span><a href="#"><i class="fab fa-facebook-f"></i></a></span>
+                  <span><a href="#"><i class="fab fa-twitter"></i></a></span>
+                  <span><a href="#"><i class="fab fa-linkedin"></i></a></span>
+                  <span><a href="#"><i class="fab fa-whatsapp-square"></i></a></span>
+              </div>
             </div>
           </div>
         </div>
         <div class="col-md-4 d-flex ftco-animate">
         	<div class="blog-entry align-self-stretch">
-            <a href="blog-single.html" class="block-20" style="background-image: url('images/image_2.jpg');">
+            <a href="blog-single.html" class="block-20" style="background-image: url('images/blog2.jpg'); height:35vh;">
             </a>
             <div class="text p-4 d-block">
             	<div class="meta mb-3">
-                <div><a href="#">12 août 2019</a></div>
+                <div><a href="#"><span class="icon-calendar"></span> 12 août 2019</a></div>
                 <div><a href="#">Admin</a></div>
-                <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
               </div>
               <h3 class="heading mt-3"><a href="#">Comment se démarquer au début de votre carrière UX</a></h3>
-              <p>Une petite rivière nommée Duden coule à leur place et lui fournit les regelialia nécessaires.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nobis, corrupti qui maxime eos libero. <a href="#" class="free text-primary">Lire plus</a></p></p>
+            </div>
+            <!-- like comment share Fee -->
+            <div class="like-comment-fee d-flex justify-content-between">
+              <div class="like-comment h-100 d-flex align-items-center">
+                <div class="like">
+                  <span><a href="#"><i class="fas fa-thumbs-up"></i></a> 21</span> 
+                </div>
+                <div class="comment">
+                  <span><a href="#"><i class="fas fa-comment-dots"></i></a> 14</span>
+                </div>
+              </div>
+              <div class="share h-100">
+                partager
+                  <span><a href="#"><i class="fab fa-facebook-f"></i></a></span>
+                  <span><a href="#"><i class="fab fa-twitter"></i></a></span>
+                  <span><a href="#"><i class="fab fa-linkedin"></i></a></span>
+                  <span><a href="#"><i class="fab fa-whatsapp-square"></i></a></span>
+              </div>
             </div>
           </div>
         </div>
         <div class="col-md-4 d-flex ftco-animate">
         	<div class="blog-entry align-self-stretch">
-            <a href="blog-single.html" class="block-20" style="background-image: url('images/image_3.jpg');">
+            <a href="blog-single.html" class="block-20" style="background-image: url('images/blog3.jpg'); height:35vh;">
             </a>
             <div class="text p-4 d-block">
             	<div class="meta mb-3">
-                <div><a href="#">12 août 2019</a></div>
+                <div><a href="#"><span class="icon-calendar"></span> 12 août 2019</a></div>
                 <div><a href="#">Admin</a></div>
-                <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
               </div>
               <h3 class="heading mt-3"><a href="#">Comment se démarquer au début de votre carrière UX</a></h3>
-              <p>Une petite rivière nommée Duden coule à leur place et lui fournit les regelialia nécessaires.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, aliquid voluptas corporis asperiores officia totam. <a href="#" class="free text-primary">Lire plus</a></p>
+            </div>
+            <!-- like comment share Fee -->
+            <div class="like-comment-fee d-flex justify-content-between">
+              <div class="like-comment h-100 d-flex align-items-center">
+                <div class="like">
+                  <span><a href="#"><i class="fas fa-thumbs-up"></i></a> 21</span> 
+                </div>
+                <div class="comment">
+                  <span><a href="#"><i class="fas fa-comment-dots"></i></a> 14</span>
+                </div>
+              </div>
+              <div class="share h-100">
+                partager
+                  <span><a href="#"><i class="fab fa-facebook-f"></i></a></span>
+                  <span><a href="#"><i class="fab fa-twitter"></i></a></span>
+                  <span><a href="#"><i class="fab fa-linkedin"></i></a></span>
+                  <span><a href="#"><i class="fab fa-whatsapp-square"></i></a></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-12">
+          <div class="load-more text-center wow fadeInUp" data-wow-delay="1000ms" style="margin-top:30px; margin-bottom: 60px;">
+            <a href="#" class="btn btn-primary px-4 py-3">En savoir plus</a>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ftco-section testimony-section">
+    <div class="container">
+    	<div class="row justify-content-center mb-5 pb-3">
+        <div class="col-md-7 heading-section ftco-animate text-center">
+          <h2 class="mb-4">Ce qu'ils disent de SamaProf!</h2>
+        </div>
+      </div>
+      <div class="row">
+      	<div class="col-md-12 ftco-animate">
+          <div class="carousel-testimony owl-carousel">
+            <div class="item">
+              <div class="testimony-wrap text-center">
+                <div class="user-img mb-5" style="background-image: url(images/temoin1.jpg)">
+                  <span class="quote d-flex align-items-center justify-content-center">
+                    <i class="icon-quote-left"></i>
+                  </span>
+                </div>
+                <div class="text">
+                  <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nostrum blanditiis ad fugiat expedita voluptas.</p>
+                  <p class="name">Bakeli</p>
+                  <span class="position">Numerique</span>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="testimony-wrap text-center">
+                <div class="user-img mb-5" style="background-image: url(images/temoin2.jpg)">
+                  <span class="quote d-flex align-items-center justify-content-center">
+                    <i class="icon-quote-left"></i>
+                  </span>
+                </div>
+                <div class="text">
+                  <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, nulla? Odio recusandae corporis dolorem ipsam!</p>
+                  <p class="name">Monsieur x</p>
+                  <span class="position">Professeur</span>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="testimony-wrap text-center">
+                <div class="user-img mb-5" style="background-image: url(images/temoin3.jpg)">
+                  <span class="quote d-flex align-items-center justify-content-center">
+                    <i class="icon-quote-left"></i>
+                  </span>
+                </div>
+                <div class="text">
+                  <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, ullam necessitatibus vero nesciunt ad amet.</p>
+                  <p class="name">Madame x</p>
+                  <span class="position">Professeur</span>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="testimony-wrap text-center">
+                <div class="user-img mb-5" style="background-image: url(images/temoin4.jpg)">
+                  <span class="quote d-flex align-items-center justify-content-center">
+                    <i class="icon-quote-left"></i>
+                  </span>
+                </div>
+                <div class="text">
+                  <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ipsam minus laborum blanditiis totam vel.</p>
+                  <p class="name">Ecole</p>
+                  <span class="position">Business</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -524,6 +464,66 @@
     </div>
   </section>
 	
+  <section class="ftco-section bg-light">
+    <div class="container">
+    	<div class="row justify-content-center mb-5 pb-3">
+        <div class="col-md-7 heading-section ftco-animate text-center">
+          <h2 class="mb-4">Notre equipe</h2>
+        </div>
+      </div>
+      <div class="row">
+      	<div class="col-lg-4 mb-sm-4 ftco-animate">
+      		<div class="staff">
+      			<div class="d-flex mb-4">
+      				<div class="img" style="background-image: url(images/team.jpg);"></div>
+      				<div class="info ml-4">
+      					<h3><a href="#">Omar SOW</a></h3>
+      					<span class="position">Developpeur web/mobile</span>
+      					<p class="ftco-social d-flex">
+		              <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-twitter"></span></a>
+		              <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-facebook"></span></a>
+		              <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-instagram"></span></a>
+		            </p>
+      				</div>
+      			</div>
+      		</div>
+      	</div>
+      	<div class="col-lg-4 mb-sm-4 ftco-animate">
+      		<div class="staff">
+      			<div class="d-flex mb-4">
+      				<div class="img" style="background-image: url(images/team2.jpg);"></div>
+      				<div class="info ml-4">
+      					<h3><a href="teacher-single.html">Mouhamad BA</a></h3>
+      					<span class="position">Developpeur web/mobile</span>
+      					<p class="ftco-social d-flex">
+		              <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-twitter"></span></a>
+		              <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-facebook"></span></a>
+		              <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-instagram"></span></a>
+		            </p>
+      				</div>
+      			</div>
+      		</div>
+      	</div>
+      	<div class="col-lg-4 mb-sm-4 ftco-animate">
+      		<div class="staff">
+      			<div class="d-flex mb-4">
+      				<div class="img" style="background-image: url(images/team-thiam.jpg);"></div>
+      				<div class="info ml-4">
+      					<h3><a href="teacher-single.html">Moussa THIAM</a></h3>
+      					<span class="position">Developpeur web/mobile</span>
+      					<p class="ftco-social d-flex">
+		              <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-twitter"></span></a>
+		              <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-facebook"></span></a>
+		              <a href="#" class="d-flex justify-content-center align-items-center"><span class="icon-instagram"></span></a>
+		            </p>
+      				</div>
+      			</div>
+      		</div>
+      	</div>
+      </div>
+    </div>
+  </section>
+
 	<section class="ftco-section-parallax">
     <div class="parallax-img d-flex align-items-center">
       <div class="container">

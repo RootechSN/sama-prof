@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('/home', function () {
+    return view('home');
+});
+
 Route::get('/about', function () {
     return view('about');
 });
@@ -26,7 +30,9 @@ Route::get('/school', function () {
 Route::get('/teacher', function () {
     return view('teacher');
 });
-
+Route::get('/teacher-single', function () {
+    return view('teacher-single');
+});
 Route::get('/event', function () {
     return view('event');
 });
