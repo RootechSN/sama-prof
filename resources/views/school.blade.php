@@ -46,7 +46,7 @@
                                 </div>
                             </div>
                             <div class="course-fee h-100">
-							   <a href="#" class="free"  style="width:200px">contactez-nous ici</a>
+							   <a class="free"  style="width:202px" type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">contactez-nous ici</a>
                             </div>
                         </div>
                     </div>
@@ -76,7 +76,7 @@
                                 </div>
                             </div>
                             <div class="course-fee h-100">
-							   <a href="#" class="free"  style="width:200px">contactez-nous ici</a>
+							   <a class="free"  style="width:202px" type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">contactez-nous ici</a>
                             </div>
                         </div>
                     </div>
@@ -105,7 +105,7 @@
                                 </div>
                             </div>
                             <div class="course-fee h-100">
-                                <a href="#" class="free"  style="width:200px">contactez-nous ici</a>
+                                <a class="free"  style="width:202px" type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">contactez-nous ici</a>
                             </div>
                         </div>
                     </div>
@@ -136,7 +136,7 @@
                                 </div>
                             </div>
                             <div class="course-fee h-100">
-							   <a href="#" class="free"  style="width:200px">contactez-nous ici</a>
+							   <a class="free"  style="width:202px" type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">contactez-nous ici</a>
                             </div>
                         </div>
                     </div>
@@ -166,7 +166,7 @@
                                 </div>
                             </div>
                             <div class="course-fee h-100">
-							   <a href="#" class="free"  style="width:200px">contactez-nous ici</a>
+							   <a class="free"  style="width:202px" type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">contactez-nous ici</a>
                             </div>
                         </div>
                     </div>
@@ -195,7 +195,7 @@
                                 </div>
                             </div>
                             <div class="course-fee h-100">
-                                <a href="#" class="free"  style="width:200px">contactez-nous ici</a>
+                                <a class="free"  style="width:202px" type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">contactez-nous ici</a>
                             </div>
                         </div>
                     </div>
@@ -226,7 +226,7 @@
                                 </div>
                             </div>
                             <div class="course-fee h-100">
-							   <a href="#" class="free"  style="width:200px">contactez-nous ici</a>
+							   <a class="free"  style="width:202px" type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">contactez-nous ici</a>
                             </div>
                         </div>
                     </div>
@@ -256,7 +256,7 @@
                                 </div>
                             </div>
                             <div class="course-fee h-100">
-							   <a href="#" class="free"  style="width:200px">contactez-nous ici</a>
+							   <a  class="free"  style="width:202px" type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">contactez-nous ici</a>
                             </div>
                         </div>
                     </div>
@@ -285,15 +285,13 @@
                                 </div>
                             </div>
                             <div class="course-fee h-100">
-                                <a href="#" class="free"  style="width:200px">contactez-nous ici</a>
+                                <a  class="free"  style="width:202px" type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">contactez-nous ici</a>
                             </div>
                         </div>
                     </div>
                 </div>
     	    </div>
     	    
-            </div>
-    		        
             <div class="row mt-5" style="margin-top: 0px; margin-bottom:60px">
                 <div class="col text-center">
                     <div class="block-27">
@@ -311,6 +309,43 @@
             </div>
         </div>
     </section>
+
+     <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-primary">
+              <h5 class="modal-title text-white" id="staticBackdropLabel">Nous contactez ici</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true" class="text-white">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <form action="#">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Nom complet">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Adresse Email">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Sujet">
+                    </div>
+                    <div class="form-group">
+                        <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Envoyer" class="btn btn-primary py-3 px-5">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                <button type="button" class="btn btn-primary">Nous suivre</button>
+            </div>
+        </div>
+    </div>
+    </div>
     		
     <section class="ftco-section-parallax">
         <div class="parallax-img d-flex align-items-center">

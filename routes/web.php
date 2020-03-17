@@ -50,3 +50,7 @@ Route::get('/connexion', function () {
 Route::get('/inscription', function () {
     return view('inscription');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

@@ -25,18 +25,22 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
+     <!-- CSRF Token -->
+     <meta name="csrf-token" content="{{ csrf_token() }}">
   </head>
   <body>
 
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
       <div class="container">
-        <a class="navbar-brand" href="{{ url('/')}}"><i class="#"></i>SamaProf <br><small>Recrutement</small></a>
+        <a class="navbar-brand" href="{{ url('/index')}}">SamaProf <br><small>Recrutement</small></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="oi oi-menu"></span> Menu
         </button>
         <div class="collapse navbar-collapse" id="ftco-nav">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active"><a href="{{ url('/')}}" class="nav-link">Accueil</a></li>
+            <li class="nav-item active"><a href="{{ url('/index')}}" class="nav-link">Accueil</a></li>
             <li class="nav-item"><a href="{{ url('/about')}}" class="nav-link">A propos</a></li>
             <li class="nav-item"><a href="{{ url('/school')}}" class="nav-link">Ecoles</a></li>
             <li class="nav-item"><a href="{{ url('/teacher')}}" class="nav-link">Professeurs</a></li>
@@ -44,14 +48,36 @@
             <li class="nav-item"><a href="{{ url('/contact')}}" class="nav-link">Contact</a></li>
           </ul>
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item cta"><a href="{{ url('/connexion')}}" class="nav-link"><span><i class="fas fa-key"></i> Connexion</span></a></li>
-            <li class="nav-item cta"><a href="{{ url('/inscription')}}" class="nav-link"><span><i class="fas fa-user"></i> Inscription</span></a></li>
+            @if (Auth::guest())
+              <li class="nav-item cta"><a href="{{ url('/login') }}" class="nav-link"><span><i class="fas fa-key"></i> Connexion</span></a></li>
+              <li class="nav-item cta"><a href="{{ url('/register') }}" class="nav-link"><span><i class="fas fa-user"></i> Inscription</span></a></li>
+            @else
+            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                                    {{ Auth::user()->name }} <span class="caret"></span>
+                                </a>
+
+                                <ul class="dropdown-menu" role="menu">
+                                    <li>
+                                        <a href="{{ route('logout') }}"
+                                            onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                            Se deconnecter
+                                        </a>
+
+                                        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                            {{ csrf_field() }}
+                                        </form>
+                                    </li>
+                                </ul>
+                            </li>
+                        @endif
           </ul>
         </div>
       </div>
     </nav>
     <!-- END nav -->
-
+    
         <div class="contenu">
             @yield('content')
         </div>
